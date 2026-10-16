@@ -1,0 +1,43 @@
+{
+  "run_date": "2026-10-15",
+  "bib_file": "anthology+abstracts.bib.gz",
+  "bib_file_sha256": "62267a40550cf0991b22afb32b693b8099581b9230613d0c2e6be72d798f7c04",
+  "year_min": 2015,
+  "year_max": 2026,
+  "group_1_terms": [
+    "Yoruba",
+    "Yorùbá",
+    "Hausa",
+    "Igbo",
+    "Pidgin",
+    "Naija",
+    "Nigerian",
+    "AfriSpeech",
+    "NaijaVoices",
+    "IroyinSpeech",
+    "YORÙLECT"
+  ],
+  "group_2_terms": [
+    "speech",
+    "ASR",
+    "TTS",
+    "speech recognition",
+    "speech synthesis",
+    "language identification",
+    "code-switching",
+    "narrowband",
+    "8 kHz",
+    "telephony",
+    "dataset",
+    "model",
+    "corpora",
+    "benchmark"
+  ],
+  "logic": "(any of group_1) AND (any of group_2) on title + abstract",
+  "counts": {
+    "records_in_file": 131695,
+    "records_with_abstract": 82330,
+    "records_after_date_filter": 91209,
+    "records_matching_search": 132
+  }
+}
