@@ -1,0 +1,1364 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3AJGhluQO2sOnz7ni4UK9U+f7ak</id>
+  <title>arXiv Query: search_query=(cat:cs.CL OR cat:eess.AS) AND (ti:"Yoruba" OR abs:"Yoruba" OR ti:"Yorùbá" OR abs:"Yorùbá" OR ti:"Hausa" OR abs:"Hausa" OR ti:"Igbo" OR abs:"Igbo" OR ti:"Nigerian Pidgin" OR abs:"Nigerian Pidgin" OR ti:"Naija" OR abs:"Naija" OR ti:"Nigerian-accented English" OR abs:"Nigerian-accented English" OR ti:"AfriSpeech" OR abs:"AfriSpeech" OR ti:"NaijaVoices" OR abs:"NaijaVoices" OR ti:"YORULECT" OR abs:"YORULECT" OR ti:"YarnGPT" OR abs:"YarnGPT" OR ti:"IroyinSpeech" OR abs:"IroyinSpeech" OR ti:"BibleTTS" OR abs:"BibleTTS" OR ti:"FLEURS" OR abs:"FLEURS" OR ti:"GlobalPhone" OR abs:"GlobalPhone") AND (ti:"speech" OR abs:"speech" OR ti:"ASR" OR abs:"ASR" OR ti:"TTS" OR abs:"TTS" OR ti:"telephony" OR abs:"telephony" OR ti:"acoustic" OR abs:"acoustic" OR ti:"narrowband" OR abs:"narrowband" OR ti:"8 kHz" OR abs:"8 kHz" OR ti:"codec" OR abs:"codec" OR ti:"language identification" OR abs:"language identification" OR ti:"code-switching" OR abs:"code-switching" OR ti:"model" OR abs:"model" OR ti:"corpora" OR abs:"corpora" OR ti:"dataset" OR abs:"dataset" OR ti:"benchmark" OR abs:"benchmark") AND submittedDate:"180001010000 TO 202612312359"&amp;id_list=&amp;start=200&amp;max_results=100</title>
+  <updated>2026-10-16T12:39:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(cat:cs.CL+OR+cat:eess.AS)+AND+((ti:%22Yoruba%22+OR+(abs:%22Yoruba%22+OR+(ti:%22Yor%C3%B9b%C3%A1%22+OR+(abs:%22Yor%C3%B9b%C3%A1%22+OR+(ti:%22Hausa%22+OR+(abs:%22Hausa%22+OR+(ti:%22Igbo%22+OR+(abs:%22Igbo%22+OR+(ti:%22Nigerian+Pidgin%22+OR+(abs:%22Nigerian+Pidgin%22+OR+(ti:%22Naija%22+OR+(abs:%22Naija%22+OR+(ti:%22Nigerian-accented+English%22+OR+(abs:%22Nigerian-accented+English%22+OR+(ti:%22AfriSpeech%22+OR+(abs:%22AfriSpeech%22+OR+(ti:%22NaijaVoices%22+OR+(abs:%22NaijaVoices%22+OR+(ti:%22YORULECT%22+OR+(abs:%22YORULECT%22+OR+(ti:%22YarnGPT%22+OR+(abs:%22YarnGPT%22+OR+(ti:%22IroyinSpeech%22+OR+(abs:%22IroyinSpeech%22+OR+(ti:%22BibleTTS%22+OR+(abs:%22BibleTTS%22+OR+(ti:%22FLEURS%22+OR+(abs:%22FLEURS%22+OR+(ti:%22GlobalPhone%22+OR+abs:%22GlobalPhone%22)))))))))))))))))))))))))))))+AND+((ti:%22speech%22+OR+(abs:%22speech%22+OR+(ti:%22ASR%22+OR+(abs:%22ASR%22+OR+(ti:%22TTS%22+OR+(abs:%22TTS%22+OR+(ti:%22telephony%22+OR+(abs:%22telephony%22+OR+(ti:%22acoustic%22+OR+(abs:%22acoustic%22+OR+(ti:%22narrowband%22+OR+(abs:%22narrowband%22+OR+(ti:%228+kHz%22+OR+(abs:%228+kHz%22+OR+(ti:%22codec%22+OR+(abs:%22codec%22+OR+(ti:%22language+identification%22+OR+(abs:%22language+identification%22+OR+(ti:%22code-switching%22+OR+(abs:%22code-switching%22+OR+(ti:%22model%22+OR+(abs:%22model%22+OR+(ti:%22corpora%22+OR+(abs:%22corpora%22+OR+(ti:%22dataset%22+OR+(abs:%22dataset%22+OR+(ti:%22benchmark%22+OR+abs:%22benchmark%22)))))))))))))))))))))))))))+AND+submittedDate:%22180001010000+TO+202612312359%22))&amp;start=200&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>258</opensearch:totalResults>
+  <opensearch:startIndex>200</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.00613v1</id>
+    <title>English to Central Kurdish Speech Translation: Corpus Creation, Evaluation, and Orthographic Standardization</title>
+    <updated>2026-04-01T08:14:25Z</updated>
+    <link href="https://arxiv.org/abs/2604.00613v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.00613v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present KUTED, a speech-to-text translation (S2TT) dataset for Central Kurdish, derived from TED and TEDx talks. The corpus comprises 91,000 sentence pairs, including 170 hours of English audio, 1.65 million English tokens, and 1.40 million Central Kurdish tokens. We evaluate KUTED on the S2TT task and find that orthographic variation significantly degrades Kurdish translation performance, producing nonstandard outputs. To address this, we propose a systematic text standardization approach that yields substantial performance gains and more consistent translations. On a test set separated from TED talks, a fine-tuned Seamless model achieves 15.18 BLEU, and we improve Seamless baseline by 3.0 BLEU on the FLEURS benchmark. We also train a Transformer model from scratch and evaluate a cascaded system that combines Seamless (ASR) with NLLB (MT).</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-01T08:14:25Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mohammad Mohammadamini</name>
+    </author>
+    <author>
+      <name>Daban Q. Jaff</name>
+    </author>
+    <author>
+      <name>Josep Crego</name>
+    </author>
+    <author>
+      <name>Marie Tahon</name>
+    </author>
+    <author>
+      <name>Antoine Laurent</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.04598v1</id>
+    <title>Benchmarking Multilingual Speech Models on Pashto: Zero-Shot ASR, Script Failure, and Cross-Domain Evaluation</title>
+    <updated>2026-04-06T11:23:42Z</updated>
+    <link href="https://arxiv.org/abs/2604.04598v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.04598v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pashto is spoken by approximately 60--80 million people but has no published benchmarks for multilingual automatic speech recognition (ASR) on any shared public test set. This paper reports the first reproducible multi-model evaluation on public Pashto data, covering zero-shot ASR, script-level failure, and cross-domain evaluation of fine-tuned models. For zero-shot ASR, ten models (all seven Whisper sizes, MMS-1B, SeamlessM4T-v2-large, and OmniASR-CTC-300M) are evaluated on the FLEURS Pashto test set and a filtered Common Voice~24 subset; zero-shot Whisper WER ranges from 90% to 297%, with the medium model collapsing to 461% on Common Voice~24 consistent with decoder looping. SeamlessM4T achieves 39.7% WER on Common Voice~24 (the best zero-shot result reported to date, as of submission); MMS-1B achieves 43.8% on FLEURS. For script failure, a language-identification audit shows that no Whisper model produces Pashto-script output in more than 0.8% of utterances, while MMS-1B, SeamlessM4T, and OmniASR each exceed 93% Pashto-script fidelity; WER alone does not reveal this failure, since a model generating Arabic-script output on Pashto audio has not achieved ASR in any interpretable sense. For cross-domain evaluation, five fine-tuned Pashto ASR models are evaluated on both test sets: published WER figures of 14% degrade to 32.5--59% on out-of-distribution sets, while one augmented model achieves 35.1% on both sets with zero cross-domain degradation. Character-class error stratification confirms that Pashto-unique phonemes (the retroflex series and lateral fricatives) account for disproportionate error mass. All evaluations cover read speech only. Five structural impediments to cumulative progress are identified and five ordered research priorities are argued.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-06T11:23:42Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hanif Rahman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.05624v1</id>
+    <title>YoNER: A New Yorùbá Multi-domain Named Entity Recognition Dataset</title>
+    <updated>2026-04-07T09:27:04Z</updated>
+    <link href="https://arxiv.org/abs/2604.05624v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.05624v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Named Entity Recognition (NER) is a foundational NLP task, yet research in Yorùbá has been constrained by limited and domain-specific resources. Existing resources, such as MasakhaNER (a manually annotated news-domain corpus) and WikiAnn (automatically created from Wikipedia), are valuable but restricted in domain coverage. To address this gap, we present YoNER, a new multidomain Yorùbá NER dataset that extends entity coverage beyond news and Wikipedia. The dataset comprises about 5,000 sentences and 100,000 tokens collected from five domains including Bible, Blogs, Movies, Radio broadcast and Wikipedia, and annotated with three entity types: Person (PER), Organization (ORG) and Location (LOC), following CoNLL-style guidelines. Annotation was conducted manually by three native Yorùbá speakers, with an inter-annotator agreement of over 0.70, ensuring high quality and consistency. We benchmark several transformer encoder models using cross-domain experiments with MasakhaNER 2.0, and we also assess the effect of few-shot in-domain data using YoNER and cross-lingual setups with English datasets. Our results show that African-centric models outperform general multilingual models for Yorùbá, but cross-domain performance drops substantially, particularly for blogs and movie domains. Furthermore, we observed that closely related formal domains, such as news and Wikipedia, transfer more effectively. In addition, we introduce a new Yorùbá-specific language model (OyoBERT) that outperforms multilingual models in in-domain evaluation. We publicly release the YoNER dataset and pretrained OyoBERT models to support future research on Yorùbá natural language processing.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-07T09:27:04Z</published>
+    <arxiv:comment>LREC 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Peace Busola Falola</name>
+    </author>
+    <author>
+      <name>Jesujoba O. Alabi</name>
+    </author>
+    <author>
+      <name>Solomon O. Akinola</name>
+    </author>
+    <author>
+      <name>Folashade T. Ogunajo</name>
+    </author>
+    <author>
+      <name>Emmanuel Oluwadunsin Alabi</name>
+    </author>
+    <author>
+      <name>David Ifeoluwa Adelani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.07467v1</id>
+    <title>Lexical Tone is Hard to Quantize: Probing Discrete Speech Units in Mandarin and Yorùbá</title>
+    <updated>2026-04-08T18:07:04Z</updated>
+    <link href="https://arxiv.org/abs/2604.07467v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.07467v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Discrete speech units (DSUs) are derived by quantising representations from models trained using self-supervised learning (SSL). They are a popular representation for a wide variety of spoken language tasks, including those where prosody matters. DSUs are especially convenient for tasks where text and speech are jointly modelled, such as text-to-speech and multimodal dialogue systems. But we have found that DSUs encode suprasegmental information less reliably than segmental structure, which we demonstrate in this work using lexical tone, though this limitation likely extends to other suprasegmental features such as prosody.
+  Our investigations using the tone languages Mandarin and Yorùbá show that the SSL latent representations themselves do encode tone, yet DSUs obtained using quantisation tend to prioritise phonetic structure, which makes lexical tone less reliably encoded. This remains true for a variety of quantisation methods, not only the most common, K-means.
+  We conclude that current DSU quantisation strategies have limitations for suprasegmental features, which suggests a need for new, tone-aware (or prosody-aware) techniques in speech representation learning. We point towards a potential form of the solution by performing K-means clustering once to encode phonetic information, then again on the residual representation, which better encodes lexical tone.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-08T18:07:04Z</published>
+    <arxiv:comment>Accepted at Speech Prosody 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Proc. Speech Prosody 2026, 38-42</arxiv:journal_ref>
+    <author>
+      <name>Opeyemi Osakuade</name>
+    </author>
+    <author>
+      <name>Simon King</name>
+    </author>
+    <arxiv:doi>10.21437/SpeechProsody.2026-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21437/SpeechProsody.2026-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.08786v2</id>
+    <title>Script collapse in multilingual ASR: A reference-free metric and 100-pair benchmark</title>
+    <updated>2026-05-05T12:00:49Z</updated>
+    <link href="https://arxiv.org/abs/2604.08786v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.08786v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Word error rate (WER) is the dominant metric for automatic speech recognition, yet it cannot detect a systematic failure mode: models that produce fluent output in the wrong writing system. We define Script Fidelity Rate (SFR), the fraction of hypothesis characters in the target script block, computable without reference transcriptions, and report a systematic measurement of script collapse across ten languages spanning six writing systems and ten models (seven Whisper sizes, MMS-1B, SeamlessM4T-v2, and Gemma 4 E2B) on FLEURS test sets. Across 100 evaluated model-language pairs, 21 (21%; 95% Wilson CI: 14-30%) exhibit script collapse (SFR less than 10%): 20 involve Whisper and one involves Gemma 4 E2B on Urdu under a generic transcription prompt. In a ten-language Gemma 4 probe, script-aware prompting raises mean SFR from 71.2% to 97.7%, fixes Urdu collapse (6.5% to 97.0%), and recovers 5.9 chrF on downstream NLLB translation for the six languages whose baseline SFR is below 90%. We identify four collapse patterns: Latin phonetic substitution, Arabic substitution for Somali, Devanagari substitution for Bengali/Malayalam, and unique-script Latin collapse for Georgian.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-09T21:49:41Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Hanif Rahman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.10736v2</id>
+    <title>BlasBench: An Open Benchmark for Irish Speech Recognition</title>
+    <updated>2026-04-16T21:22:01Z</updated>
+    <link href="https://arxiv.org/abs/2604.10736v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.10736v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing multilingual benchmarks include Irish among dozens of languages but apply no Irish-aware text normalisation, leaving reliable and reproducible ASR comparison impossible. We introduce BlasBench, an open evaluation harness that provides a standalone Irish-aware normaliser preserving fadas, lenition, and eclipsis; a reproducible scoring harness and per-utterance predictions released for all evaluated runs. We pilot this by benchmarking 12 systems across four architecture families on Common Voice ga-IE and FLEURS ga-IE. All Whisper variants exceed 100% WER through insertion-driven hallucination. Microsoft Azure reaches 22.2% WER on Common Voice and 57.5% on FLEURS; the best open model, Omnilingual ASR 7B, reaches 30.65% and 39.09% respectively. Models fine-tuned on Common Voice degrade 33-43 points moving to FLEURS, while massively multilingual models degrade only 7-10 - a generalisation gap that single-dataset evaluation misses.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-12T17:17:54Z</published>
+    <arxiv:comment>9 pages, 4 tables, 3 appendices. Code and data: https://github.com/jyoutir/blasbench</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jyoutir Raj</name>
+    </author>
+    <author>
+      <name>John Conway</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.22828v1</id>
+    <title>A Survey of Text and Speech Resources for Hausa and Fongbe: Availability, Quality, and Gaps for NLP Development</title>
+    <updated>2026-04-13T10:59:44Z</updated>
+    <link href="https://arxiv.org/abs/2605.22828v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.22828v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This survey provides a comprehensive catalog of publicly available text and speech resources for two West African languages: Hausa, an Afroasiatic language with approximately 80-100 million speakers, and Fongbe, a Niger-Congo language spoken by approximately 2 million people in Benin. These languages represent contrasting cases on the resource availability spectrum. We address the question: \textit{What is the current state of publicly available NLP resources for Hausa and Fongbe, and what gaps remain?} Through systematic search of academic repositories, data platforms, and web sources, we catalog parallel corpora, monolingual text collections, speech datasets, pre-trained models, and evaluation benchmarks. For each resource, we document size, domain coverage, format, licensing, and accessibility. Our findings reveal that Hausa benefits from broader text resource diversity across news, encyclopedic, and educational domains. Fongbe, while having more limited text resources, has been the focus of recent academic speech data collection initiatives. Both languages are represented in Masakhane benchmarks for NER and POS tagging. We provide task-specific recommendations and identify priority gaps including domain-diverse Fongbe text and dedicated Hausa speech corpora.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-13T10:59:44Z</published>
+    <arxiv:comment>8 pages, 7 tables; survey paper; to appear in IEEE SDS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mahounan Pericles Adjovi</name>
+    </author>
+    <author>
+      <name>Victor Olufemi</name>
+    </author>
+    <author>
+      <name>Roald Eiselen</name>
+    </author>
+    <author>
+      <name>Prasenjit Mitra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12477v1</id>
+    <title>Mining Large Language Models for Low-Resource Language Data: Comparing Elicitation Strategies for Hausa and Fongbe</title>
+    <updated>2026-04-14T09:00:52Z</updated>
+    <link href="https://arxiv.org/abs/2604.12477v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12477v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are trained on data contributed by low-resource language communities, yet the linguistic knowledge encoded in these models remains accessible only through commercial APIs. This paper investigates whether strategic prompting can extract usable text data from LLMs for two West African languages: Hausa (Afroasiatic, approximately 80 million speakers) and Fongbe (Niger-Congo, approximately 2 million speakers). We systematically compare six elicitation task types across two commercial LLMs (GPT-4o Mini and Gemini 2.5 Flash). GPT-4o Mini extracts 6-41 times more usable target-language words per API call than Gemini. Optimal strategies differ by language: Hausa benefits from functional text and dialogue, while Fongbe requires constrained generation prompts. We release all generated corpora and code.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T09:00:52Z</published>
+    <arxiv:comment>11 pages, 5 figures, 6 tables; to appear in LREC-COLING 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mahounan Pericles Adjovi</name>
+    </author>
+    <author>
+      <name>Roald Eiselen</name>
+    </author>
+    <author>
+      <name>Prasenjit Mitra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12540v1</id>
+    <title>When Does Data Augmentation Help? Evaluating LLM and Back-Translation Methods for Hausa and Fongbe NLP</title>
+    <updated>2026-04-14T10:14:58Z</updated>
+    <link href="https://arxiv.org/abs/2604.12540v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12540v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data scarcity limits NLP development for low-resource African languages. We evaluate two data augmentation methods -- LLM-based generation (Gemini 2.5 Flash) and back-translation (NLLB-200) -- for Hausa and Fongbe, two West African languages that differ substantially in LLM generation quality. We assess augmentation on named entity recognition (NER) and part-of-speech (POS) tagging using MasakhaNER 2.0 and MasakhaPOS benchmarks. Our results reveal that augmentation effectiveness depends on task type rather than language or LLM quality alone. For NER, neither method improves over baseline for either language; LLM augmentation reduces Hausa NER by 0.24% F1 and Fongbe NER by 1.81% F1. For POS tagging, LLM augmentation improves Fongbe by 0.33% accuracy, while back-translation improves Hausa by 0.17%; back-translation reduces Fongbe POS by 0.35% and has negligible effect on Hausa POS. The same LLM-generated synthetic data produces opposite effects across tasks for Fongbe -- hurting NER while helping POS -- suggesting task structure governs augmentation outcomes more than synthetic data quality. These findings challenge the assumption that LLM generation quality predicts augmentation success, and provide actionable guidance: data augmentation should be treated as a task-specific intervention rather than a universally beneficial preprocessing step.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T10:14:58Z</published>
+    <arxiv:comment>13 pages, 6 tables; previously submitted to KDD 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mahounan Pericles Adjovi</name>
+    </author>
+    <author>
+      <name>Roald Eiselen</name>
+    </author>
+    <author>
+      <name>Prasenjit Mitra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.03073v1</id>
+    <title>The TTS-STT Flywheel: Synthetic Entity-Dense Audio Closes the Indic ASR Gap Where Commercial and Open-Source Systems Fail</title>
+    <updated>2026-05-04T18:43:30Z</updated>
+    <link href="https://arxiv.org/abs/2605.03073v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.03073v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Niche-domain Indic ASR -- digit strings, currency amounts, addresses, brand names, English/Indic codemix -- is under-served by both open-source SOTA and commercial systems. On a synthesised entity-dense Telugu test set (held-out by synthesis system), vasista22/whisper-telugu-large-v2 (open SOTA) achieves Entity-Hit-Rate (EHR) 0.027 and Deepgram Nova-3 (commercial) 0.16. We close this gap with a self-contained TTS&lt;-&gt;STT flywheel: an open-source Indic TTS pipeline synthesises ~22,000 entity-dense Indic-English code-mix utterances at &lt;$50 marginal cost, and a LoRA fine-tune on top of vasista22 achieves EHR 0.473 on the held-out test (17x over open SOTA, 3x over commercial), with read-prose regression bounded to +6.6 pp WER on FLEURS-Te. Cross-language: beta-Hi 0.337 (7x vs vasista22) and beta-Ta 0.543 (22x vs vasista22, 22x vs Deepgram); on Hindi where Deepgram has substantial entity coverage, the flywheel underperforms commercial. All three beta models fall below pre-registered EHR targets (0.75 for Te, 0.65 for Hi/Ta); we report honestly. A native-human-recorded sanity check (n=20 Telugu) confirms transfer to real speech (beta-Te EHR 0.516 on native vs 0.473 on synth). An EDSA-isolation ablation (LoRA on FLEURS-Te alone) yields EHR 0.020 on the same held-out, attributing ~100% of the gain to the EDSA corpus. We additionally report a language-conditional finding: vanilla Whisper-large-v3 has Telugu-specific Script Collapse (SFR 0.46-0.71) that a per-language LoRA corrects (SFR 0.81-0.97), but the recipe is contraindicated on Hindi and Tamil where vanilla SFR &gt;= 0.98. Code, holdouts, predictions, EDSA corpus, and entity dictionaries are released open-source.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-04T18:43:30Z</published>
+    <arxiv:comment>8 pages, 2 figures. Companion to arXiv:2604.25441 (Praxy Voice TTS), arXiv:2604.25476 (PSP), arXiv:2605.00777 (LASE)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Venkata Pushpak Teja Menta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.11219v1</id>
+    <title>Afrispeech Semantics: Evaluating Audio Semantic Reasoning in Spoken Language Models Across Domains and Accents</title>
+    <updated>2026-05-11T20:27:40Z</updated>
+    <link href="https://arxiv.org/abs/2606.11219v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.11219v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Audio language models (ALMs) are increasingly used for speech-based understanding, yet their ability to perform semantic reasoning beyond transcription, Text-to-Audio Retrieval, Captioning, and Question-Answering accuracy remains insufficiently benchmarked. In particular, the effects of accent variation, domain shift, and semantic over-inference on audio reasoning are poorly understood. We evaluate audio language models across five semantic and paralinguistic reasoning tasks: entailment, consistency, plausibility, accent drift, and accent restraint. Collectively, these tasks assess a model's ability to reason over spoken audio as the primary evidence source, including whether a textual hypothesis can be inferred, contradicted, or left undetermined by the audio, whether statements align or conflict with spoken content, whether claims are plausible given the discourse, and whether model predictions remain stable or appropriately constrained across accent variation. These findings highlight critical limitations in current audio reasoning evaluations and hope to provide guidance for more robust and equitable ALM design and assessment</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-11T20:27:40Z</published>
+    <arxiv:comment>Accepted to ACL</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chibuzor Okocha</name>
+    </author>
+    <author>
+      <name>Christan Grant</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.17710v3</id>
+    <title>Sometin Beta Pass Notin: Improving Multilingual ASR for Nigerian Languages via Knowledge Distillation</title>
+    <updated>2026-09-26T22:44:40Z</updated>
+    <link href="https://arxiv.org/abs/2605.17710v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.17710v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although modern multilingual Automatic Speech Recognition (ASR) systems support several Nigerian languages, their performance consistently lags behind resource-rich languages such as English and French. Nigerian languages present unique modelling hurdles, including acute data scarcity, inconsistent orthography, tonal diacritics, diverse accents, frequent code-switching, and localised named entities. To address these challenges, we developed a multilingual ASR framework using a two-stage distillation process. First, we employed student-teacher knowledge distillation from existing monolingual models, conditioned on robust language-specific N-gram language models. Second, we performed iterative self improvement using pseudo-labelled data to further refine accuracy. Our method significantly bridges the performance gap, achieving on average a reduction in the relative Word Error Rate (WER) of 29% over the monolingual baselines. Our models also outperform state-of-the-art multilingual models across major benchmarks, including Common Voice and FLEURS. We introduce Sometin Beta Pass Notin (SBPN), a multilingual foundational ASR model that covers Yorùbá, Hausa, Igbo, Nigerian Pidgin, and Nigerian English.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-18T00:22:18Z</published>
+    <arxiv:comment>Accepted at Proc. SLT 2026, 7 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sewade Ogun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.26978v1</id>
+    <title>PashtoTTS-Bench: automated screening for low-resource non-Latin-script text-to-speech</title>
+    <updated>2026-05-26T13:03:20Z</updated>
+    <link href="https://arxiv.org/abs/2605.26978v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.26978v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text-to-speech (TTS) evaluation for low-resource non-Latin-script languages can fail when it relies on a single ASR round-trip word error rate (WER). A system may produce no audio, speak a neighbouring language, preserve target script text only in an ASR transcript, or sound unnatural to native listeners. We introduce INSV (Intelligibility, Naturalness, Script fidelity, and Verification), a reporting framework that separates these cases. This paper reports INSV-A, the automated screening subset: synthesis completion, ASR WER/CER, transcript Script Fidelity Rate, and audio language identification. Native MOS and phonetic annotation are specified but not claimed in this release. We instantiate INSV-A as PashtoTTS-Bench, a dated benchmark for Pashto TTS. The April-May 2026 run evaluates Edge GulNawaz, Edge Latifa, OmniVoice clone, OmniVoice auto, and an Urdu negative control on 200 FLEURS and 200 filtered Common Voice 24 prompts. Under the independent omniASR_CTC_300M_v2, OmniVoice auto has the lowest WER (24.1% FLEURS, 27.4% CV24), followed by Edge GulNawaz (32.8%, 39.5%), Edge Latifa (35.6%, 47.7%), and OmniVoice clone (45.4%, 34.8%). WER below the natural-speech baseline reflects clean synthetic audio and should not be read as better than native speech. Whisper Large V3 returns 0.0% Pashto labels on checked Pashto TTS audio, while MMS-LID-4017 and SpeechBrain VoxLingua107 separate Pashto outputs from the Urdu control. The release provides provider metadata, per-sentence scores, LID audits, failure logs, and scripts for adding systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-26T13:03:20Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hanif Rahman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.29741v1</id>
+    <title>AfriScience-MT: Towards Decolonizing Science in Africa through Text Translation</title>
+    <updated>2026-05-28T10:36:32Z</updated>
+    <link href="https://arxiv.org/abs/2605.29741v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.29741v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The dominance of colonial languages in African education and scientific communication limits how hundreds of millions of speakers of African languages access and produce scientific knowledge. A core obstacle is the lack of established scientific terminology in these languages. We introduce AfriScience-MT, a parallel corpus covering six African languages (Amharic, Hausa, Luganda, Northern Sotho, Yorùbá, and isiZulu) across 11 scientific domains. Professional translators, working with expert science communicators, translated plain-language summaries of scientific papers into each target language and created new terms where none existed. We benchmark machine translation systems and large language models in zero-shot, few-shot, and fine-tuned settings. Our results show that closed-source models outperform all open-source models at both the sentence and document levels: GPT-5.4 and Gemini-3.1-Flash-Lite lead with average sentence-level COMET scores of 68.3 and 68.0, respectively, and tie at an average document-level COMET of 48.3. Among open systems, fine-tuned NLLB-1.3B reaches 67.3 at the sentence level, and TranslateGemma-12B reaches 44.0 at the document level with 1-shot in-context learning. We release AfriScience-MT to support benchmarking and document-level scientific MT for African languages.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T10:36:32Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Idris Abdulmumin</name>
+    </author>
+    <author>
+      <name>Tajuddeen Gwadabe</name>
+    </author>
+    <author>
+      <name>Shamsuddeen Hassan Muhammad</name>
+    </author>
+    <author>
+      <name>David Ifeoluwa Adelani</name>
+    </author>
+    <author>
+      <name>Nomonde Khalo</name>
+    </author>
+    <author>
+      <name>Ibrahim Said Ahmad</name>
+    </author>
+    <author>
+      <name>Abiodun Modupe</name>
+    </author>
+    <author>
+      <name>Anina Mumm</name>
+    </author>
+    <author>
+      <name>Sibusiso Biyela</name>
+    </author>
+    <author>
+      <name>Michelle Rabie</name>
+    </author>
+    <author>
+      <name>Johanna Havemann</name>
+    </author>
+    <author>
+      <name>Marek Rei</name>
+    </author>
+    <author>
+      <name>Jade Abbott</name>
+    </author>
+    <author>
+      <name>Vukosi Marivate</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.12327v1</id>
+    <title>Comparative Analysis of Multilingual Pre-trained Models for Nepali Automatic Speech Recognition</title>
+    <updated>2026-05-31T12:05:48Z</updated>
+    <link href="https://arxiv.org/abs/2608.12327v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.12327v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multilingual pretrained models nominally support Nepali, yet no controlled benchmark has compared them under a single fine-tuning protocol. We fine-tune six pretrained models (XLSR-53, IndicWav2Vec, MMS-1B, Whisper-Medium, Whisper-Large-v3-Turbo, and Conformer-Hi) spanning CTC self-supervised, autoregressive encoder-decoder, and hybrid Conformer-CTC architectures, on the OpenSLR SLR54 Nepali corpus (~165 hours) using identical preprocessing, splits, optimizer, and family-matched learning-rate schedules. We evaluate Word Error Rate (WER), Character Error Rate (CER), and Real-Time Factor (RTF) on three independent test sets (OpenSLR, FLEURS, Common Voice). Whisper-Large-v3-Turbo (14.76% WER) and IndicWav2Vec (14.89% WER) tie at the top despite a 9x parameter gap and 40x pretraining-data gap, providing direct empirical evidence that language-family proximity in pretraining can substitute for raw scale for in-domain Nepali. CTC decoders run up to 29x faster than autoregressive Whisper at the same accuracy, flipping the practical deployment preference toward CTC under any latency budget. Massively multilingual pretraining (MMS-1B) yields the smallest out-of-domain degradation on FLEURS (+12.55 pp), indicating that scale buys robustness rather than peak in-domain accuracy. The resulting benchmark provides the first standardized, multi-model, efficiency-aware reference numbers for Nepali ASR.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-31T12:05:48Z</published>
+    <arxiv:comment>9 pages, 6 figures, 7 tables. Based on M.Sc. thesis (Institute of Science and Technology, Tribhuvan University). Code and models: https://github.com/p-sumann/nepali-asr-benchmark</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Suman Paudel</name>
+    </author>
+    <author>
+      <name>Sarbin Sayami</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.02548v1</id>
+    <title>SN-WER: Script-Normalized WER for Multi-Script Indic ASR Evaluation</title>
+    <updated>2026-06-01T17:49:10Z</updated>
+    <link href="https://arxiv.org/abs/2606.02548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.02548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Word Error Rate (WER) is the dominant metric for automatic speech recognition (ASR), but it can overestimate errors when references and hypotheses encode the same words in different scripts. This issue is common in multilingual settings where ASR models may emit romanized text. We propose Script-Normalized WER (SN-WER), a training-free, evaluation-only scoring method that transliterates both reference and hypothesis text into a language-specific canonical script before computing WER. We evaluate SN-WER on 5 Indic languages, 2 datasets, and 3 ASR models. On curated FLEURS data, SN-WER reduces inflated model gaps by up to 12%, while on noisier Common Voice data the reductions are smaller or inconsistent, indicating genuine recognition weaknesses rather than only script mismatch. Controlled stress tests show a 67% attenuation of artificial romanization-induced WER inflation, while lexical-substitution controls show near-identical sensitivity to semantic errors, with Delta SN-WER / Delta WER approximately 1.09. SN-WER is robust to transliterator choice, normalization changes, and shows low token-collision rates below 0.1% in the evaluated Indic setting. We argue that SN-WER should be reported alongside WER and CER as a companion metric for script-insensitive ASR evaluation, especially when transcripts feed downstream search, indexing, or multilingual LLM pipelines.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-01T17:49:10Z</published>
+    <arxiv:comment>Accepted to ACL 2026 MeLLM</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Priyaranjan Pattnayak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.03241v1</id>
+    <title>Benchmarking Speech-to-Speech Translation Models</title>
+    <updated>2026-06-02T07:01:33Z</updated>
+    <link href="https://arxiv.org/abs/2606.03241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.03241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Speech-to-speech translation (S2ST) has advanced rapidly, but offline evaluation lacks a unified protocol: studies report non-overlapping metric subsets, preventing direct comparisons. We introduce COMPASS, a unified and reproducible benchmarking framework integrating 46 metrics across eight dimensions, and deploy it on 1,248 model-language configurations from FLEURS and CVSS, spanning cascaded and end-to-end architectures over ten language pairs. Architectures exhibit complementary strengths: best-vs-worst gaps exceed 30\% on naturalness and speaker preservation but remain within a few points on translation quality, so single-metric rankings systematically misrepresent system quality. Correlation filtering reduces 46 metrics to 10 per direction, with three axes requiring different metrics across X$\to$EN and EN$\to$X (e.g., TER/UTMOS vs. ChrF++/NISQA-MOS); these subsets preserve rankings (Spearman's $ρ&gt;0.80$) while cutting evaluation time by $\approx 2.5\times$. Human validation across dubbing, podcasts, and medical domains shows standalone MOS predictors fail to predict listener preference, while top domain-specific metrics correlate with human judgment ($ρ\geq 0.90$). We release COMPASS as a foundation for domain-aware S2ST evaluation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-02T07:01:33Z</published>
+    <arxiv:comment>Paper under submission</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Alkis Koudounas</name>
+    </author>
+    <author>
+      <name>Hayato Futami</name>
+    </author>
+    <author>
+      <name>Quentin Jodelet</name>
+    </author>
+    <author>
+      <name>Osamu Take</name>
+    </author>
+    <author>
+      <name>Shinji Watanabe</name>
+    </author>
+    <author>
+      <name>Emiru Tsunoo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.03304v1</id>
+    <title>From Script to Semantics: Prompting Strategies for African NLI</title>
+    <updated>2026-06-02T08:20:10Z</updated>
+    <link href="https://arxiv.org/abs/2606.03304v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.03304v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly evaluated in multilingual settings, yet their inference behavior in low-resource African languages remains underexplored especially under pure prompting without fine-tuning. We present a systematic study of prompting strategies for Natural Language Inference (NLI) in Swahili, Yoruba, and Hausa using the AfriXNLI benchmark. We evaluate five prompting strategies Baseline (zero-shot), Script-Aware, Language Specific, Contrastive, and Native-Label Self-Translation (NL-STP) across two mid-sized open weight models (Llama3.2-3B and Gemma3-4B). To isolate the effect of prompt design, the effect of few-shot examples and Chain-of-Thought reasoning is eliminated in our study. We find a significant difference in performance of class wise across strategies with highly neutral class collapse and high prediction skew in some configurations. Contrastive prompting proves to be the most reliable and steadily improving strategy over language and model and has better balance of class behavior and balance of overall accuracy gains. Notably, well-constructed prompts are sufficient to beat more powerful baselines that are provided with few-shot prompts and Chain-of-Thought prompts. We have found that prompt formulation is essential to multilingual NLI with low-resource languages and that language aware decision structuring can be used to meaningfully enhance robustness in resource challenged settings.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-02T08:20:10Z</published>
+    <arxiv:comment>Accepted at the RAIL Workshop, LREC 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Anuj Tiwari</name>
+    </author>
+    <author>
+      <name>Terry Oko-odion</name>
+    </author>
+    <author>
+      <name>Hannah Nwokocha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.06985v2</id>
+    <title>Contrastive Training with LLM-generated Near-Misses for Robust Code-Switching Speech Recognition</title>
+    <updated>2026-06-22T17:12:48Z</updated>
+    <link href="https://arxiv.org/abs/2606.06985v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.06985v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Code-switching (CS), the alternation between multiple languages within a single utterance, remains challenging for Automatic Speech Recognition (ASR). To address this issue, we propose a Point-of-Interest (POI)-aware contrastive training framework that improves recognition at CS-critical regions. We first identify CS spans by adopting POI detection method from literature, then construct acoustically plausible near-miss hypotheses by perturbing POIs in ASR N-best outputs and expanding candidates with a large language model. Hard but plausible negatives are retained through filtering with acoustic, phonemic, and textual constraints. Finally, we fine-tune Whisper-small with LoRA using a POI-weighted cross-entropy anchor objective together with a multi-negative contrastive ranking loss. Experiments on CS-FLEURS (cmn-eng) and ViMedCSS (vie-eng) show consistent reductions of over 2% in both general and CS-aware error rates compared to standard LoRA fine-tuning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-05T07:24:39Z</published>
+    <arxiv:comment>Accepted at INTERSPEECH 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tung X. Nguyen</name>
+    </author>
+    <author>
+      <name>Hieu Minh Truong</name>
+    </author>
+    <author>
+      <name>Giang Son Nguyen</name>
+    </author>
+    <author>
+      <name>Nhu Vo</name>
+    </author>
+    <author>
+      <name>Wray Buntine</name>
+    </author>
+    <author>
+      <name>Dung D. Le</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.18089v1</id>
+    <title>Latent Space Refusal Anchoring for Low-Resource African Languages: Mechanistic Safety Recovery Without Retraining</title>
+    <updated>2026-06-05T22:20:56Z</updated>
+    <link href="https://arxiv.org/abs/2608.18089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.18089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Instruction-tuned models often refuse harmful requests in English but comply with the same requests in Yoruba, Igbo, Igala, and Hausa. This suggests that the refusal mechanism is present in the residual stream but fails to activate for low-resource inputs. Recovering it normally requires labelled target-language data and retraining, neither of which is available at scale for most African languages. We introduce Latent Space Refusal Anchoring (LSR-Anchoring), a training-free method that extracts the refusal direction from English prompts and clamps it onto the residual stream at inference time. The primary variant, Mean-Activation Steering (MAS), operates across the four architectures we tested: Llama-3-8B, Llama-3.1-70B, Mistral-7B-Instruct, and Qwen2.5-7B. On Mistral and Qwen it recovers safety with benign degradation below 0.08. On Llama-3-8B it overcorrects, with Degraded Performance on Legitimate prompts (DPL) reaching 1.00. We address this with SAE-Derived Steering (SDS), which replaces the dense mean-difference direction with a single Sparse Autoencoder (SAE) feature and reduces Kullback-Leibler (KL) divergence by 3.5-7x without benign collapse. Four languages transfer positively, but Arabic fails on every architecture and at every steering magnitude, indicating a geometric mismatch rather than a baseline effect. Massive Multitask Language Understanding (MMLU) accuracy drops remain below 0.35 percentage points at every effective steering magnitude.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-05T22:20:56Z</published>
+    <arxiv:comment>Published at ICML 2026 Workshop on Global South in Machine Learning</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Godwin Abuh Faruna</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.09317v1</id>
+    <title>A Comparative Study of Pre-trained Speech Encoders and Training Objectives for Large-Scale Indic Spoken Language Identification</title>
+    <updated>2026-06-08T10:27:33Z</updated>
+    <link href="https://arxiv.org/abs/2606.09317v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.09317v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spoken language identification (LID) for Indian languages is a challenging problem due to the large number of languages, significant phonetic overlap among related varieties, and the scarcity of labeled data for many low-resource languages. In this work, we present a systematic comparative study of two pre-trained speech encoders -- Whisper and FastConformer -- combined with a linear classifier for large-scale Indic LID spanning 42 languages across four linguistic families. We evaluate both encoders in frozen (linear probing) and fine-tuned settings, and compare three training objectives: cross-entropy (CE), supervised contrastive loss with cross entropy (CE + supCon), and hierarchical softmax (HSM). Models are trained on the Vaani dataset and evaluated in a cross-corpus setting on Vaani-Test (held-out), FLEURS, and Kathbath, providing insights into domain generalization. The frozen FastConformer encoder achieves over 90\% macro accuracy on FLEURS and Kathbath without any task-specific adaptation, substantially outperforming Whisper on out-of-domain benchmarks, while fine-tuned Whisper yields stronger in-domain performance. HSM consistently outperforms CE and CE+SupCon for both encoders across all benchmarks, with the largest gains on out-of-domain test sets. CE+SupCon degrades FastConformer's cross-corpus generalization, suggesting that the contrastive objective over-specializes representations to in-domain conditions. Per-family analysis shows that Central Indo-Aryan varieties are the hardest to discriminate, with Hindi--Urdu and the Sadri--Chhattisgarhi--Surgujia cluster being the dominant confusion pairs.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-08T10:27:33Z</published>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Agneedh Basu</name>
+    </author>
+    <author>
+      <name>Pavan Kumar J</name>
+    </author>
+    <author>
+      <name>Sujith P</name>
+    </author>
+    <author>
+      <name>Visruth Sanka</name>
+    </author>
+    <author>
+      <name>Nihar Desai</name>
+    </author>
+    <author>
+      <name>Prasanta Kumar Ghosh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.12911v1</id>
+    <title>PiDA: Phonetically-Informed Data Augmentation for Robust Vietnamese Speech Translation</title>
+    <updated>2026-06-11T05:09:59Z</updated>
+    <link href="https://arxiv.org/abs/2606.12911v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.12911v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cascaded speech translation (ST) systems suffer from error propagation when Automatic Speech Recognition (ASR) outputs incorrect transcripts. We present the first systematic categorization of ASR errors for Vietnamese ST, classifying substitution errors by phonetic cause and quantifying their impact on downstream Neural Machine Translation (NMT) performance using Linear Mixed-Effects Modelling. We confirm that most ASR substitution errors arise from phonetic confusions rather than random noise, and that these phonetic errors significantly degrade ST quality. Motivated by this finding, we propose Phonetically-Informed Data Augmentation (PiDA), which generates ASR-like corruptions by substituting words with phonetically similar alternatives using phonetic word embeddings. Fine-tuning on a PiDA-augmented version of FLEURS Vietnamese-English improves translation of erroneous ASR outputs (up to +2.04 BLEU over standard fine-tuning) while also slightly improving clean-text performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-11T05:09:59Z</published>
+    <arxiv:comment>Accepted to INTERSPEECH 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Giang Son Nguyen</name>
+    </author>
+    <author>
+      <name>Tung X. Nguyen</name>
+    </author>
+    <author>
+      <name>Hieu Minh Truong</name>
+    </author>
+    <author>
+      <name>Nhu Vo</name>
+    </author>
+    <author>
+      <name>Wray Buntine</name>
+    </author>
+    <author>
+      <name>Dung D. Le</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.20255v2</id>
+    <title>The Register Gap: A Meaning Intelligence Framework for Nigerian Public Discourse</title>
+    <updated>2026-06-19T06:02:56Z</updated>
+    <link href="https://arxiv.org/abs/2606.20255v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.20255v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the Meaning Intelligence Framework (MIF), a nine-dimension annotation and evaluation schema for Nigerian public discourse that separates surface sentiment from true communicative intent. Existing benchmarks for Nigerian languages, including NaijaSenti and AfriSenti, treat sentiment classification as a three-way polarity task. We argue that the dominant failure mode of AI systems on Nigerian discourse is not translation failure but context failure: the same utterance carries opposite pragmatic force depending on speaker, audience, and situation. The MIF operationalises this insight across nine scored dimensions: register, surface sentiment, true intent, irony, coded subtext, risk tier, annotator confidence, speaker emotion, and recommended communications action. We construct a 30-item calibration dataset spanning Standard English, Nigerian English, Nigerian Pidgin, and code-mixed registers, and evaluate three frontier language models (Gemini 2.5 Flash, GPT-5, and Gemini 2.5 Pro) under zero-shot and schema-informed prompting conditions. Two headline findings emerge. First, the Register Gap: zero-shot register classification accuracy is 33.3%, rising to 73.3% (+40 points) when the model receives the MIF schema in-context. Second, model capability and cultural competence are decoupled: GPT-5 (MIS 67.8) and Gemini 2.5 Pro (MIS 65.4) score lower than Flash (MIS 78.6), and neither benefits from schema-informed prompting. We release the framework specification, annotation guidelines, and calibration set to support reproducibility.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-18T14:05:29Z</published>
+    <arxiv:comment>Preprint v2. 14 pages, 3 tables. Multi-model evaluation (Gemini 2.5 Flash, GPT-5, Gemini 2.5 Pro). Supplementary materials available from the author</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Celestine Achi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.24915v1</id>
+    <title>Error-Aware TF-IDF Retrieval-Augmented Generation for ASR Error Correction</title>
+    <updated>2026-06-19T16:43:31Z</updated>
+    <link href="https://arxiv.org/abs/2606.24915v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.24915v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>End-to-end automatic speech recognition systems frequently hallucinate rare entities and domain-specific terms, especially in low-resource languages. While retrieval-augmented generation frameworks can mitigate these errors using large language models, current architectures face significant challenges. They either rely on standard sparse retrieval that ignores phonetic misrecognitions or utilize heavyweight cross-modal embeddings that introduce high latency. This letter proposes a highly efficient, purely lexical error-aware framework designed to explicitly resolve phonetic and loop hallucinations. Our approach integrates a symmetric text normalization module with a novel error-aware term frequency-inverse document frequency algorithm. By constructing a sparse diagonal penalty matrix based on historical errors, the retriever mathematically prioritizes corrective documents containing specific high-risk misrecognitions. Evaluated on the Persian subset of the FLEURS dataset, our method increased the error-aware hit rate from 53.7% to 90.9%. In end-to-end evaluations, the integrated framework reduced the final word error rate from 23.06% to 18.83%, achieving significant accuracy gains with near-zero inference latency.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-19T16:43:31Z</published>
+    <arxiv:comment>4 pages, 1 figure, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mohammad Aref Jafari-Raddani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.22269v1</id>
+    <title>Evaluating Large Language Models for Hausa and Fongbe Machine Translation: Benchmarks, Failures, and Metric Reliability</title>
+    <updated>2026-06-20T23:23:54Z</updated>
+    <link href="https://arxiv.org/abs/2606.22269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.22269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the translation quality of current large language models (LLMs) for English-to-Hausa and English-to-Fongbe - two typologically distinct West African languages from the Afroasiatic and Niger-Congo families respectively - and evaluate whether standard automatic metrics reliably reflect human judgment for these low-resource languages. We evaluate four models (GPT-4o Mini, Claude Sonnet 4, Gemini 2.5 Flash, and Qwen2.5-7B) at progressive scales (500 to 10,000 sentences) using automatic metrics (BLEU, chrF++, TER, COMET, BERTScore) validated against native-speaker judgment. Our results reveal three key findings. First, translation quality varies substantially by language: Hausa achieves acceptable quality (human scores 4.0-4.5/5) while Fongbe achieves poor quality (1.0-2.2/5), with a consistent 3x BLEU gap across all systems. Second, model rankings differ by language - Gemini leads for Fongbe while GPT-4o leads for Hausa by human evaluation - indicating that performance on one low-resource African language does not predict performance on another. Third, metric-human correlation varies dramatically: perfect rank correlation for Fongbe (rho=1.0) but weak correlation for Hausa (rho=0.5), where human evaluators preferred GPT-4o despite all automatic metrics ranking Claude first. We further show that neural metrics like BERTScore exhibit embedding collapse (within-language similarity &gt;0.99) for both languages, limiting their ability to differentiate translation quality. Based on these findings, we recommend multi-metric evaluation for low-resource African languages, with particular caution when interpreting neural metrics. We establish that minimum sample sizes of n=2,500 sentences are required for stable system rankings, as smaller samples produced artifact findings that reversed at scale.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-20T23:23:54Z</published>
+    <arxiv:comment>19 pages, 10 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mahounan Pericles Adjovi</name>
+    </author>
+    <author>
+      <name>Roald Eiselen</name>
+    </author>
+    <author>
+      <name>Prasenjit Mitra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.22274v1</id>
+    <title>From Speech to Text Corpora: Evaluating ASR-Based Data Acquisition for Low-Resource Fongbe and Hausa</title>
+    <updated>2026-06-20T23:51:55Z</updated>
+    <link href="https://arxiv.org/abs/2606.22274v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.22274v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-resource African languages lack text corpora needed for language model training. We investigate whether ASR pipelines can extend text resources for two typologically distinct West African languages: Fongbe (tonal, diacritic-rich) and Hausa (non-tonal). We fine-tune MMS-300M on a curated 12.3-hour Fongbe dataset, achieving 9.48% WER on the ALFFA benchmark - a 78% relative reduction from the prior 44.04% baseline - while preserving tonal diacritics critical to the language. For Hausa, we apply an existing fine-tuned Whisper-Small model. We catalog 1,553 YouTube videos (236 hours) and process a subset of 424 videos (45.49 hours) selected to balance domain diversity with available computational resources, producing 6,770 transcribed segments. Human evaluation on 50 randomly sampled segments per language shows mean quality scores of 57.4/100 for Hausa and 36.5/100 for Fongbe, indicating that while Hausa transcriptions approach acceptable quality for corpus construction, Fongbe transcriptions require post-processing or improved models for production use. We release the curated dataset, fine-tuned model, transcribed corpus, and full video catalog following platform terms and ethical guidelines.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-20T23:51:55Z</published>
+    <arxiv:comment>10 pages, 1 figure, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mahounan Pericles Adjovi</name>
+    </author>
+    <author>
+      <name>Victor Olufemi</name>
+    </author>
+    <author>
+      <name>Roald Eiselen</name>
+    </author>
+    <author>
+      <name>Prasenjit Mitra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.21369v1</id>
+    <title>Wazobia Eval: A Benchmark for Nigerian Pidgin Emotion Understanding, Sarcasm Detection, and Cultural Reasoning</title>
+    <updated>2026-06-21T10:43:46Z</updated>
+    <link href="https://arxiv.org/abs/2608.21369v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.21369v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nigerian Pidgin is one of Africa's most widely spoken languages, yet remains severely underrepresented in language model evaluation. Existing benchmarks primarily focus on translation, transcription, or generic sentiment analysis, leaving critical aspects of culturally grounded language understanding unmeasured. We introduce Wazobia Eval, a benchmark for evaluating Nigerian Pidgin emotion understanding, sarcasm detection, and cultural reasoning. The benchmark is built on a manually annotated dataset containing over 550 examples and a 16-category emotion taxonomy designed to capture culturally specific emotional registers that are not represented in conventional sentiment frameworks. Wazobia Eval provides standardized evaluation protocols and benchmark tasks for assessing model performance on nuanced Nigerian language understanding. We present the benchmark design, annotation methodology, taxonomy development process, and preliminary pilot evaluation results. Our goal is to provide foundational evaluation infrastructure for Nigerian language AI and establish a reproducible benchmark for future research. The dataset is publicly available at https://huggingface.co/WAZOBIALABS.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-21T10:43:46Z</published>
+    <arxiv:comment>GitHub: https://github.com/steffokoye/wazobia-eval Dataset: https://huggingface.co/WAZOBIALABS</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Stephanie Okoye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.24080v2</id>
+    <title>Audio--Image Alignment as a Continued-Pretraining Stage in Automatic Speech Recognition</title>
+    <updated>2026-09-19T08:57:29Z</updated>
+    <link href="https://arxiv.org/abs/2606.24080v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.24080v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Thousands of languages are spoken worldwide, yet many remain under-resourced for Automatic Speech Recognition (ASR) due to the limited availability of high-quality transcribed speech data. Collecting accurate transcriptions is often costly and labor-intensive, particularly for low-resource languages. In this work, we introduce a representation-alignment stage between large-scale pretraining and supervised ASR fine-tuning, in which image representations extracted from pretrained vision encoders are aligned with audio representations to adapt a pretrained audio encoder using only paired audio--image data, with no transcriptions. On FLEURS, alignment reduces overall WER across 11 Indian languages from 66.42% to 49.77%, a 25.07% relative reduction that is statistically significant in every language. Two controls establish that the gain comes from the image signal itself: a compute-matched continued-pretraining baseline yields no improvement (66.42% vs. 65.99%), and shuffling the audio--image pairs removes the benefit entirely (72.60%). The aligned encoder also improves over the baseline at every fine-tuning budget from 10 to 100 hours on Vaani and LibriSpeech, with the largest gains in the lowest-resource settings. These findings highlight audio--image representation alignment as an effective transcription-free adaptation strategy for ASR.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-23T02:48:58Z</published>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Sujith Pulikodan</name>
+    </author>
+    <author>
+      <name>Nihar Desai</name>
+    </author>
+    <author>
+      <name>Prasanta Kumar Ghosh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.24460v1</id>
+    <title>The African Language Tax: Quantifying the Cost, Latency, and Context Penalty of Tokenizing African Languages in Frontier LLMs</title>
+    <updated>2026-06-23T11:47:03Z</updated>
+    <link href="https://arxiv.org/abs/2606.24460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.24460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Commercial large language models bill, scale latency, and budget context per token. Yet tokenizers assign more subword tokens to the same meaning in some languages than in others, so speakers of languages with high token-fertility pay a structural penalty before a model is ever invoked. This penalty is documented for multilingual settings in general, but it has not been measured systematically for African languages at the level of enterprise deployment economics and cognitive context capacity. We measure it across 20 African languages spanning five language families and three scripts (Latin, Ge'ez/Ethiopic, N'Ko; 19 appear in the primary FLORES-200+ corpus, with Nigerian Pidgin measured via MAFAND-MT only), using parallel corpora so that the language effect is isolated from content. Across 11 frontier and open tokenizers on FLORES-200+, every African language carries a tokenization premium above English (median 1.88x on GPT-5 / o200k_base, up to 8.92x for N'Ko); the penalty is largest for Ethiopic and N'Ko scripts (reaching 7-9x) and is near-invariant across corpora (FLORES vs SIB-200 Pearson r = 0.9998). Translated into deployment terms, this results in up to 8.9x inference cost and an equivalent generation-latency multiplier (N'Ko vs English on GPT-5; 7.4x for Amharic), and as little as 11% of English's effective context window. The best currently available tokenizer for African languages, Gemma 4, reduces the mean premium from 3.31x (cl100k_base) to 2.38x, but no tokenizer eliminates the penalty. We release an open measurement tool (afri-fertility), a public leaderboard, a results dataset, and mitigation guidance for African builders. The penalty falls hardest on the languages whose speakers can least afford it, a digital divide encoded directly into the subword vocabulary.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-23T11:47:03Z</published>
+    <arxiv:comment>40 pages, 5 figures, 25 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Olaoye Anthony Somide</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.10312v1</id>
+    <title>Polarization Detection: A Hybrid Approach with AfroXLMR-Social and DeBERTa for Low- and High-Resource Settings</title>
+    <updated>2026-07-11T13:37:55Z</updated>
+    <link href="https://arxiv.org/abs/2607.10312v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.10312v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid proliferation of online polarization threatens social cohesion, necessitating robust automated detection systems that operate effectively across diverse linguistic contexts. This paper presents our system description for the POLAR Shared Task 2026, focusing on the detection and characterization of polarized discourse in English and Hausa. We propose a hybrid modeling strategy: for English binary detection, we leverage the monolingual strength of \textbf{DeBERTa}, while for Hausa and all fine-grained subtasks (Types and Manifestations), we utilize \textbf{AfroXLMR-Social}. This domain-adapted multilingual model proved critical for capturing the nuances of polarization in social media text. To further address computational constraints and data scarcity, we implement Low-Rank Adaptation (LoRA) and textual data augmentation via \texttt{nlpaug}. We report competitive results across all three subtasks, demonstrating that model selection tailored to specific subtask requirements yields the best balance of performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-11T13:37:55Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Muhammad Abdullahi Said</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.18960v1</id>
+    <title>When Audit Quality Fails to Predict Downstream Utility: A Counterfactual Study of Synthetic-Data Selectors for Low-Resource African NLP</title>
+    <updated>2026-07-15T16:06:34Z</updated>
+    <link href="https://arxiv.org/abs/2609.18960v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.18960v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quality-aware synthetic-data selection rests on a proxy: examples that an LLM judge rates as good should also help a downstream model learn. In a controlled replay in low-resource African-language classification, we show that this proxy breaks. Across four languages (Amharic, Hausa, Swahili, Yoruba), two classification tasks (MasakhaNEWS, AfriSenti), and five matched-budget selectors, audit rankings and downstream rankings diverge. Within each cell, the Spearman between judged label correctness and Macro-F1 across selectors has mean $ρ{=}0.04$ (median $0.00$), showing that the mismatch is not an aggregation artifact. \method{}-V2, our counterfactual audit framework, produces the cleanest selected pool on three audit channels at once: highest judged label correctness ($0.904$ vs.\ $0.767$ for naive, a $17.9\%$ relative gain), lowest shortcut score, and a hard-reject rate of $0.162$ vs.\ $0.486$ for naive. AlpaGasus nevertheless leads downstream Macro-F1 ($0.202$ vs.\ $0.163$ for \method{}-V2), and the inversion persists on the five non-degenerate cells. The lesson is methodological: in this controlled setting, audit quality is a property of the selected pool, not a guarantee of downstream utility. Synthetic-data evaluation should therefore report audit and downstream metrics on the same retained sets. We release the audit tables, per-selector retained pools, and a claim ledger that links every reported number to its source row.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-15T16:06:34Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Son Ha Xuan</name>
+    </author>
+    <author>
+      <name>Phat T. Tran-Truong</name>
+    </author>
+    <author>
+      <name>Xuan-Bach Le</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.18317v4</id>
+    <title>A Situational Speech Synthesizer for Yoruba: System Design, Phonological Rule Architecture, and Orthographic Extensions for Contour</title>
+    <updated>2026-10-11T17:32:03Z</updated>
+    <link href="https://arxiv.org/abs/2607.18317v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.18317v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present TTSYoruba, a rule-based concatenative diphone speech synthesizer for Yoruba, deployed at online as part of the YorubaName.com open dictionary of Yoruba personal names. The system takes tone-marked Yoruba text as input and produces audio output by applying a hand-crafted phonological rule system to a recorded inventory of 651 diphone units spanning five tonal variants of every consonant-vowel combination in the language. We describe the phonological architecture of the system in detail, including our complete tonal file-selection logic, our treatment of the three-way nasal disambiguation problem (oral /n/, nasalized vowel, and syllabic nasal), and the derivation of contextual rising and falling tones from level-tone input. We also present, as an orthographic contribution, the adoption of the caron and circumflex, which are symbols with prior standing in Yoruba phonological transcription, as standard single-vowel contour tone markers, integrated into the TTS normalization pipeline and the WriteYoruba keyboard input tool. The system's performance was evaluated through a listener study (N=50), with detailed results on Mean Opinion Scores (MOS) presented in Section 6.
+  Keywords: Yoruba, text-to-speech, low-resource languages, diphone synthesis, contour tones, African language NLP, rule-based synthesis</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-17T20:13:41Z</published>
+    <arxiv:comment>18 pages. v4: updated citations to the companion paper (arXiv:2609.38627), which proposes the caron/circumflex convention as a revision of the standard Yoruba orthography; corrected rulebook entry numbers and the Adenike example in Section 5 to match the deposited rule specification; fixed missing characters (equivalence symbol, IPA and syllabic-nasal marks); improved table layout</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Kola Tubosun</name>
+    </author>
+    <author>
+      <name>Adedayo Oluokun</name>
+    </author>
+    <author>
+      <name>Hafiz Adewuyi</name>
+    </author>
+    <author>
+      <name>Dadepo Aderemi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.18662v1</id>
+    <title>Staged Depth-Pruning Distillation of a Flow-Matching Text-to-Speech Teacher: A Compact Hindi Speech Synthesizer</title>
+    <updated>2026-07-19T11:20:25Z</updated>
+    <link href="https://arxiv.org/abs/2607.18662v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.18662v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a practical recipe for building a compact Hindi text-to-speech (TTS) model by distilling a large flow-matching teacher (IndicF5, 337M-parameter DiT) under a severe data budget (~17.6 hours). Training a small model from scratch on this much data fails outright. Instead we warm-start the student from the teacher by pruning depth only: keeping the teacher's width, text dimension, attention heads, and mel/text I/O fixed so all non-block tensors copy one-to-one, and retaining an evenly-spaced subset of transformer blocks. We first measure how much depth the teacher tolerates (it remains near-functional at -27% blocks but collapses past -50%), then descend gradually (22 -&gt; 16 -&gt; 12 -&gt; 8 -&gt; 6 blocks), re-fine-tuning after each prune, with each step gated by an objective ASR word-error-rate (WER) check. The resulting students reach WER 0.00 on unseen sentences at 249M and 190M parameters, and remain robust down to 131M; at 102M we observe a clear capacity cliff that we attribute to the data budget rather than the recipe. We also document two train/inference feature- and library-parity failures (mel filterbank and rotary-embedding library versions) that silently degrade audio, and a version-independent fix. The method yields a high-quality Hindi voice that runs in real time on a 6 GB laptop GPU. An independent 50-sentence FLEURS benchmark compares the released 190M student against its teacher and MMS-TTS-hin.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-19T11:20:25Z</published>
+    <arxiv:comment>7 pages, 4 tables. Model and benchmark artifacts: https://huggingface.co/5ivatej/hindi-tts-190M</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Sivateja Trikutam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.17270v1</id>
+    <title>Safety That Does Not Transfer: Cross-Lingual Clinical Correctness Drift in Deployable Medical Language Models</title>
+    <updated>2026-07-19T14:20:31Z</updated>
+    <link href="https://arxiv.org/abs/2607.17270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.17270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety evaluation of large language models is conducted predominantly in English and predominantly on frontier systems. Neither condition describes how such models are encountered in low-resource health settings, where small quantised systems are run locally and queried in local languages. We ask whether clinical safety established in English transfers to Hausa, and whether any failure is attributable to the language, the clinical task, or the class of model that low-resource deployment admits. Matched English-Hausa question pairs were built for three conditions of high burden in northern Nigeria: malaria, sickle cell disease, and tuberculosis, probing knowledge recall, emergency triage, a leading question inviting a contraindicated action, and a traditional-remedy claim. Six models were evaluated: five locally deployable systems of 4-9 billion parameters, two medically fine-tuned, and one frontier system. All 128 responses were scored against Nigerian national treatment guidelines by two fluent Hausa speakers working independently and blind to one another. Among locally deployable models, mean clinical correctness fell from 1.57 in English to -0.03 in Hausa, on a scale where 2 denotes a correct answer and -1 an actively harmful one. The frontier model moved from 2.00 to 1.75 and produced no response judged harmful in either language. Drift was consistent across all three conditions. Inter-rater agreement was substantial for clinical correctness (kappa = 0.70); agreement on harm was initially poor (kappa = 0.22) and is examined in detail. Because a frontier model answers the same questions competently in Hausa, the deficit is a property neither of the language nor of the clinical material, but of the deployable tier.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-19T14:20:31Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Anthonio Oladimeji Gabriel</name>
+    </author>
+    <author>
+      <name>Dimeji Olawuyi</name>
+    </author>
+    <author>
+      <name>Toba Ajayi</name>
+    </author>
+    <author>
+      <name>Temilola Aderemi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.09046v1</id>
+    <title>Measuring the Tokenization Premium: A Cost Audit for Underserved Language Communities</title>
+    <updated>2026-08-10T02:51:04Z</updated>
+    <link href="https://arxiv.org/abs/2608.09046v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.09046v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are increasingly deployed as general-purpose educational and technical assistance systems, but their underlying infrastructure does not treat languages equally. One underexamined source of disparity is tokenization: semantically equivalent content can require substantially different token counts across languages, affecting API cost, latency, and usable context length before a model is invoked. We introduce the Tokenization Equity Audit (TEA), a reproducible benchmark for measuring tokenization premiums in technical tutoring content. TEA evaluates three widely used tokenizers, GPT-4o's o200k base, Qwen2.5-7B, and Mistral-7B, on a 120-item Python debugging corpus translated from English into Bengali, Hindi, Arabic, Tamil, and Yoruba. Bengali and Hindi serve as the primary validated cases, while the remaining languages provide exploratory cross-script and cross-family comparisons. Across this corpus, Bengali requires (1.56\times) as many GPT-4o tokens as English, reducing a nominal 128k-token context window to an effective 82k-token English-equivalent capacity for the same semantic content. With the Qwen2.5 and Mistral tokenizers, Bengali requires up to (4.5\times) the English token count. Yoruba, despite using the Latin script, exhibits the highest GPT-4o tokenization premium at (2.37\times), indicating that tokenization inequity cannot be explained by script family alone. These results demonstrate that tokenization can create measurable economic and functional barriers, highlighting the need to treat tokenization as an equity-relevant infrastructure layer for underserved language communities, particularly where educational systems depend on low-cost or offline-capable AI tools.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-10T02:51:04Z</published>
+    <arxiv:comment>Accepted at IJCAI 2026 Workshop (https://lm4uc.github.io/)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Avijit Roy</name>
+    </author>
+    <author>
+      <name>Proma Roy</name>
+    </author>
+    <author>
+      <name>Hrishitva Patel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.11146v1</id>
+    <title>The Illusion of Cross-Lingual Safety in Low-Resource Languages</title>
+    <updated>2026-08-11T17:05:26Z</updated>
+    <link href="https://arxiv.org/abs/2608.11146v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.11146v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety alignment in large language models (LLMs) is largely developed in English, assuming these safeguards generalize across multilingual settings. However, this assumption remains underexplored and exposes a vulnerability in low-resource languages. We investigate cross-lingual safety transfer in four African languages, Twi, Hausa, Amharic, and Swahili, using LoDNA, a new safety dataset that pairs literal translations with culturally localized prompts. To move beyond generation-based evaluation, we propose a latent geometric framework that probes hidden-state refusal representations in LLMs. Our experimental results show that cross-lingual safety transfer is severely limited; harmful prompts retain less than 10% of the English refusal signal across most language-model pairs. Literal and localized prompts are semantically aligned (cosine 0.95-0.996) but drift across layers, suggesting models encode the concepts without routing them to safety mechanisms. These findings demonstrate that current multilingual safety alignment is superficial, providing strong evidence against the assumption of a universal, language-agnostic harm manifold within the specific low-resource languages studied. Warning: This paper contains example data that may be offensive or harmful.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-11T17:05:26Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Abigail Oppong</name>
+    </author>
+    <author>
+      <name>P Sam Sahil</name>
+    </author>
+    <author>
+      <name>Tadesse Destaw Belay</name>
+    </author>
+    <author>
+      <name>Maryam Ibrahim Mukhtar</name>
+    </author>
+    <author>
+      <name>Esmael Ahmed Abdu</name>
+    </author>
+    <author>
+      <name>Tassallah Abdullahi</name>
+    </author>
+    <author>
+      <name>Jessica Oparebea</name>
+    </author>
+    <author>
+      <name>Saminu Mohammad Aliyu</name>
+    </author>
+    <author>
+      <name>Idris Abdulmumin</name>
+    </author>
+    <author>
+      <name>Abubakar Juma Chilala</name>
+    </author>
+    <author>
+      <name>Nicholaus Dismas Ladislaus</name>
+    </author>
+    <author>
+      <name>Alfred Malengo Kondoro</name>
+    </author>
+    <author>
+      <name>Lemofouet Valdini Douglace</name>
+    </author>
+    <author>
+      <name>Shamsuddeen Hassan Muhammad</name>
+    </author>
+    <author>
+      <name>Seid Muhie Yimam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.28508v1</id>
+    <title>Phoneme- and Word-Level Metrics Using Self-Supervised Speech Representations for Forced Alignment Evaluation</title>
+    <updated>2026-08-28T16:39:22Z</updated>
+    <link href="https://arxiv.org/abs/2608.28508v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.28508v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Forced alignment evaluation typically requires manually annotated timestamps, limiting large-scale and multilingual analysis. We introduce two corpus-level metrics based on self-supervised (SSL) speech representations for reference-free forced alignment evaluation: Phoneme-Cluster Mutual Information (PCMI) and Word Acoustic Consistency Score (WACS). PCMI measures agreement between aligned phoneme labels and clusters induced from SSL-speech representations, while WACS measures consistency of repeated word realizations using dynamic time warping similarity between word representation sequences. Using both random and systematic perturbations, we show that PCMI and WACS degrade consistently under alignment perturbations. We further analyze the metrics across multiple alignment systems on 85 languages from FLEURS, validate them against manually annotated alignments from 45 languages in DoReCo, and evaluate them on two phonologically complex low-resource languages. The metrics effectively separate high- and low-quality alignments and correlate strongly with timestamp-based alignment quality measures. Our results demonstrate that SSL-speech representations enable scalable, reference-free forced alignment evaluation. The metrics are available as an open-source Python package at https://github.com/mahesh-ak/forced-aligner-metrics.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-28T16:39:22Z</published>
+    <arxiv:comment>Accepted at EMNLP-2026 (Findings)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>V. S. D. S. Mahesh Akavarapu</name>
+    </author>
+    <author>
+      <name>Michael Daniel</name>
+    </author>
+    <author>
+      <name>Gerhard Jäger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.09554v2</id>
+    <title>BuzzASR: A Swarm of 100+ Monolingual Speech Recognition Models</title>
+    <updated>2026-10-04T08:46:39Z</updated>
+    <link href="https://arxiv.org/abs/2609.09554v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.09554v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce BuzzASR, a collection of language-specialized fine-tuned Whisper models adapted for automatic speech recognition (ASR) in 102 languages. Large end-to-end Transformer-based ASR models such as Whisper have revolutionized ASR, but most prominent models are highly multilingual. As a result, these models often perform poorly on languages less well-represented in their training set. While it has long been known that effective language adaptation can be achieved through simple fine-tuning on monolingual data, this strategy has only been applied to a small number of languages. We massively scale up this simple approach to 102 languages covered in the FLEURS dataset, while also implementing a more complex language adaptation strategy that integrates monolingual tokenizer replacement and data augmentation using text-only fine-tuning. BuzzASR models outperform Whisper-large-v3 on 77 out of 102 languages, reducing character error rates (CER) by a factor of over 2.8 on average. Our models achieve state-of-the-art CER among open-source systems on 27 of 102 languages on the combined FLEURS and Common Voice test set. Our tokenizer replacement strategy yields an average 3.3x improvement in compression rate (characters per token) over Whisper's multilingual BPE, with gains of up to 21.7x. We release all models, code, and detailed results: https://lemn-lab.github.io/buzz-asr</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-09T00:18:08Z</published>
+    <arxiv:comment>Accepted at EMNLP 2026. Models: https://huggingface.co/BuzzASR ; Project page: https://lemn-lab.github.io/buzz-asr</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shivam Singh</name>
+    </author>
+    <author>
+      <name>Aditya Yadavalli</name>
+    </author>
+    <author>
+      <name>Catherine Arnett</name>
+    </author>
+    <author>
+      <name>Alex Warstadt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.10054v1</id>
+    <title>Orukeet: Multilingual ASR with Frozen Gabor Kernels</title>
+    <updated>2026-09-09T11:30:03Z</updated>
+    <link href="https://arxiv.org/abs/2609.10054v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.10054v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Orukeet replaces half of an adapted Parakeet encoder's temporal filters with 12,288 fitted Gabor kernels, freezes these replacements, and trains the remaining parameters on multilingual and multi-accent data. Final adaptation and checkpoint selection use LibriSpeech test-other. Across 20,146 FLEURS recordings in 25 languages, pooled word error rate (WER) falls from Parakeet's 11.01% to Orukeet's 9.85%, a 10.6% relative reduction. Orukeet has lower WER on 23 of the 25 languages. Orukeet outperforms Parakeet on 61 out of 74 tested splits, including LibriSpeech test-clean (1.46% vs. 1.53% WER), test-other (2.86% vs. 3.14%), and FLEURS English (3.82% vs. 4.28%). All comparisons decode the same audio with matched NeMo settings. The fitted kernels are stored as ordinary convolution weights, retaining Parakeet's architecture and inference operators.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-09T11:30:03Z</published>
+    <arxiv:comment>5 pages, 2 figures. Code and model: https://github.com/Oruk-AI/orukeet</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Nathan Roll</name>
+      <arxiv:affiliation>Oruk AI</arxiv:affiliation>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Irene Yi</name>
+      <arxiv:affiliation>Oruk AI</arxiv:affiliation>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Büşra Marşan</name>
+      <arxiv:affiliation>Oruk AI</arxiv:affiliation>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vianney Grenez</name>
+      <arxiv:affiliation>Oruk AI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gabriel Stein</name>
+      <arxiv:affiliation>OpenWhispr</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Momcilo Mrkaic</name>
+      <arxiv:affiliation>Hoid</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pavle Padjin</name>
+      <arxiv:affiliation>Hoid</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vladimir Zeljkovic</name>
+      <arxiv:affiliation>Hoid</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Calbert Graham</name>
+      <arxiv:affiliation>Oruk AI</arxiv:affiliation>
+      <arxiv:affiliation>University of Cambridge</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11786v1</id>
+    <title>Beyond Word Error Rate: A Switch Aware Evaluation of ASR and Audio Language Models on English Yoruba Code-Switched Speech</title>
+    <updated>2026-09-10T16:36:19Z</updated>
+    <link href="https://arxiv.org/abs/2609.11786v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11786v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automatic speech recognition (ASR) systems and audio language models (audio LMs) now report low error rates on monolingual benchmarks, but their behavior on code switched speech in low resource, diacritic rich languages remains poorly characterized. We present a switch aware evaluation of eleven modern systems (six ASR models and five audio LMs) on English Yoruba code-switched speech, using a deterministic 2000 utterance evaluation set and a shared scoring pipeline. Beyond word error rate (WER), we report switch localized diagnostics: a switch entry token error rate (SETER), windowed switch point error rates, language specific error rates, and a diacritic insensitive WER. Our central finding is that aggregate WER hides code switching behavior. The best system by WER (an ASR model) is statistically indistinguishable from a leading audio LM on WER, yet the audio LM is significantly better on every switch localized metric. Across faithful systems, Yoruba token recognition collapses (error 0.97 for almost all systems) while English tokens are recognized far better, and errors concentrate sharply at switches into Yoruba. Several generative audio LMs fail as exact transcribers, producing translation, verbosity, and prompt leakage that are strongly prompt dependent. We release manifests, metric implementations, and evaluation scripts to support reproducible, switch aware benchmarking for African code switched speech.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T16:36:19Z</published>
+    <arxiv:comment>Accepted to IEEE Speech Language Tecnology</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chibuzor Okocha</name>
+    </author>
+    <author>
+      <name>Christan Earl Grant</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.00154v1</id>
+    <title>How Robust Are Neural Audio Codecs for African Speech? A Multi-Task Benchmark and the Limits of Perceptual Quality</title>
+    <updated>2026-09-10T17:40:32Z</updated>
+    <link href="https://arxiv.org/abs/2610.00154v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.00154v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural audio codecs enable low-bitrate speech compression and tokenization, yet their robustness on accented and multilingual speech remains under-evaluated. We benchmark seven open-source neural codecs (DAC, EnCodec, FocalCodec, LanguageCodec, SemantiCodec, UniCodec, WavTokenizer) on three African speech datasets afrinames, afrispeech dialog, afrispeech multilingual, reporting signal-level quality (NISQA, UTMOS, ViSQOL, STOI, F0-RMSE) alongside two downstream tasks: automatic speech recognition (ASR) and speaker verification (ASV). Our analysis yields four findings. First, signal metrics differ sharply in downstream validity: reference-based structural/intelligibility measures (ViSQOL, STOI) and prosodic error (F0-RMSE) track ASR and ASV degradation far more reliably than neural mean-opinion-score predictors (NISQA, UTMOS). Second, intelligibility and speaker-identity preservation diverge sharply across architectures, and the apparent identity ranking itself depends on the ASV backend. Third, degradation is strongly domain-dependent and largest for conversational dialog. Fourth, the resulting degradation is partly recoverable: parameter-efficient \emph{codec} adaptation (LoRA, $\sim$1--3\% of parameters) on roughly 35 hours of African speech reduces the compression-induced word-error-rate gap, recovering recognition toward the uncompressed baseline (developed in companion work). These results motivate task-aware, domain-representative, and adaptation-aware evaluation of speech codecs as a prerequisite for inclusive deployment.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T17:40:32Z</published>
+    <arxiv:comment>Accepted to IEEE Speech Language Technology</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Chibuzor Okocha</name>
+    </author>
+    <author>
+      <name>Christan Earl Grant</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.14817v1</id>
+    <title>Tone on a Budget: A Reference-Free Metric for Lexical Tone in Massively Multilingual Text-to-Speech</title>
+    <updated>2026-09-13T22:18:35Z</updated>
+    <link href="https://arxiv.org/abs/2609.14817v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.14817v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In Yorùbá, pitch alone separates \d{o}k\d{o} (husband, Mid), \d{o}k\d{ò} (vehicle, Low), and \d{o}k\d{ó} (hoe, High) -- the diacritics ARE the tone marks. Yet character error rate (CER), the standard automated metric for text-to-speech (TTS), is in practice computed from ASR output that drops those marks: a synthesizer can ace CER and still say vehicle for husband. We introduce DunDun -- named for the dùndún, the Yorùbá talking drum that speaks through pitch alone -- an automated, reference-free lexical-tone metric that needs no tone-labelled corpus. The gold High/Mid/Low sequence is read from the input text's diacritics (in TTS that text exists by construction, so no reference recording is needed); the prediction comes from the audio's pitch track. We validate three ways. Flattening pitch with PSOLA resynthesis collapses DunDun while CER does not move. Inverting High and Low in the answer key of 300 native recordings drives the two-class readout to 0.14, symmetrically below its 0.35 chance level -- a consistency check on the scoring path, not independent evidence. And three native listeners, over 67 blind A/B trials, pick the tone-correct clip 89.6% of the time (95% CI 80.0-94.8; p &lt; 1e-4); whether DunDun tracks those judgements trial by trial is not resolved at this sample size. Applied to a massively multilingual zero-shot TTS model, DunDun shows what CER cannot: Yorùbá tone sits near the native anchor before any Yorùbá fine-tuning (0.567 +/- 0.02 over five decode seeds vs. 0.596; chance 0.33), despite the 21.4% CER the model's own paper reports; and a few hours of clean audio halve CER (5.6% to 2.7% by 5h, 1.7% by 15h) while tone saturates within the hour. On non-tonal Swahili, CER already captures the gains: the metric a language needs is language-dependent. We release the metric and the complete validation protocol.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-13T22:18:35Z</published>
+    <arxiv:comment>9 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Moses Daudu</name>
+    </author>
+    <author>
+      <name>Adeola Enitan Bamidele</name>
+    </author>
+    <author>
+      <name>Honor-Jesus Bezaleel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.18068v1</id>
+    <title>From a River in Gilead to the Inference Distributions of Large Language Models: Covert Dialect Bias and Linguistic Profiling at Scale</title>
+    <updated>2026-09-16T03:13:40Z</updated>
+    <link href="https://arxiv.org/abs/2609.18068v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.18068v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly deployed in high-stakes domains such as housing screening. While alignment techniques mitigate explicit racial bias in generated text, they often leave covert attitudinal associations in internal probability distributions untouched. Adapting the matched-guise sociolinguistic paradigm, we examine covert dialect bias in housing-related social judgments across four varieties: Standard American English (SAE), African American Vernacular English (AAVE), Nigerian Standard English (NSE), and Nigerian Pidgin (NP). AAVE reflects the racialized dialect studied in prior covert-bias evaluations, whereas NSE and NP represent Black African, postcolonial varieties absent from this literature. Using 260 meaning-matched sentence quadruples and log-probability scoring over housing-relevant adjectives, we probe ten open-weight LLMs across three contexts varying in social proximity: tenant screening, neighbor acceptance, and roommate selection. Across all ten models, AAVE and NP are consistently associated with more negative adjectives than SAE, with NP penalized most severely. Crucially, each dialect is penalized via distinct stereotype clusters rather than a generic non-standard category. NSE, which carries institutional prestige, displays a context-dependent shift: favored over SAE in formal tenant screening but increasingly penalized as social proximity grows. Our findings reveal that LLMs inherit covert dialect bias along both racial identity and prestige dimensions, echoing documented human housing discrimination and demonstrating its reach across postcolonial English varieties.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-16T03:13:40Z</published>
+    <arxiv:comment>12 pages, 5 figures. Accepted to the 9th AAAI/ACM Conference on AI, Ethics, and Society (AIES 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chowdhury Mohammad Abdullah</name>
+    </author>
+    <author>
+      <name>Rita Orji</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.26823v2</id>
+    <title>Text Scores Do Not Establish Performance on Lexically Non-Diagnostic Speech Tasks: A Qwen2-Audio Quantization Case Study</title>
+    <updated>2026-10-06T04:45:34Z</updated>
+    <link href="https://arxiv.org/abs/2609.26823v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.26823v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text-output scores alone do not show whether quantization preserves performance on speech tasks whose target labels cannot be recovered from the transcript. We evaluate fixed mixed 4/8-bit Qwen2-Audio-7B-Instruct allocations averaging 6 and 7 bits per parameter on 508 English-to-German FLEURS utterances and on 512 RAVDESS emotion clips from 16 speakers. The BLEU and chrF differences from half precision (FP16) have intervals that include zero for both allocations. On RAVDESS, the same two sentences occur equally often with every emotion label. The absolute accuracy differences from FP16 are -3.71% for 6 bit and -1.17% for 7 bit. The 6-bit speaker interval excludes zero and an exact two-sided sign-flip test gives p=0.0148; the 7-bit interval includes zero. Same-budget controls do not identify either selected allocation as best. This case study shows why translation scores and performance on tasks beyond the transcript need separate evaluation.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-20T14:57:27Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Mengzhe Geng</name>
+    </author>
+    <author>
+      <name>Jinxi Ji</name>
+    </author>
+    <author>
+      <name>Junhao Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.26427v1</id>
+    <title>Persistent Delivery Optimization for Streaming Speech-to-Text Translation with Revisions</title>
+    <updated>2026-09-22T13:52:50Z</updated>
+    <link href="https://arxiv.org/abs/2609.26427v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.26427v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Revision-capable streaming speech-to-text translation (S2TT) can correct earlier drafts, but process rewards based on visible text may credit content later withdrawn. Persistent Delivery Optimization (PDO) assigns intermediate reward only to content that survives revisions while scoring final quality separately. With 7.49 h of task-specific FLEURS adaptation, PDO achieves the best BLEU on four of five directions and higher COMET than every external streaming baseline in all five directions. Relative to its History-SFT initialization, PDO reduces mean/P90 finalization-aware latency by 10.8\%/11.3\% and normalized erasure by 15.8\%, while emitting at the first permitted 2-s update and improving macro BLEU. Zero-shot evaluation on Europarl-ST and CoVoST 2 confirms that these gains are not confined to the FLEURS training domain.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-22T13:52:50Z</published>
+    <arxiv:comment>5 pages, 1 figure, 4 tables. Training code and model weights are available at https://github.com/ggiggit/PDO_S2TT. Submitted to ICASSP 2027</arxiv:comment>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Zixiang Wan</name>
+    </author>
+    <author>
+      <name>Delin Chen</name>
+    </author>
+    <author>
+      <name>Wei Shi</name>
+    </author>
+    <author>
+      <name>Haihua Xu</name>
+    </author>
+    <author>
+      <name>Youxi Xie</name>
+    </author>
+    <author>
+      <name>Yuexian Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.26536v1</id>
+    <title>Transcribe, Translate, and Optimize: Joint Reward Learning for Speech Translation</title>
+    <updated>2026-09-22T14:57:51Z</updated>
+    <link href="https://arxiv.org/abs/2609.26536v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.26536v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In LLM-based speech translation, transcription-based chain-of-thought (CoT) suffers from a mismatch between reference transcripts used in supervised fine-tuning (SFT) and model-generated transcripts at inference. To address this, we propose joint recognition and translation fine-tuning via group relative policy optimization (GRPO). We score both transcripts and translations, with translation conditioned on model-generated transcripts, and compare three token advantage strategies. Using Qwen2.5-Omni-3B across four languages, we evaluate CoT against direct speech translation (Direct ST) under SFT and GRPO, training on CoVoST 2 and testing on CoVoST 2 and FLEURS. CoT GRPO outperforms Direct ST GRPO by 1.77 and 0.83 average BLEU points on CoVoST 2 and FLEURS. Compared to CoT SFT, GRPO boosts BLEU by 0.82 and 0.67 points and reduces word error rate (WER) by 8.8% and 7.2% relatively. These results highlight reinforcement fine-tuning as an effective method to mitigate the training-inference mismatch, jointly improving recognition and translation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-22T14:57:51Z</published>
+    <arxiv:comment>5 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yanghe Dong</name>
+    </author>
+    <author>
+      <name>Wanting Huang</name>
+    </author>
+    <author>
+      <name>Weiran Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.28739v1</id>
+    <title>Temporal Taxation Compounds Under Post-Training Compression of Whisper Models</title>
+    <updated>2026-09-23T19:31:05Z</updated>
+    <link href="https://arxiv.org/abs/2609.28739v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.28739v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automatic speech recognition models are audited for demographic fairness at full precision, yet the models that ship to production have been quantized, pruned, and distilled. We ask whether post-training weight compression, which alters model weights rather than the audio signal or its feature representation, redistributes error burden across demographic groups. Across the Whisper family on Fair-Speech, Common Voice 25, and AfriSpeech-200, 50% Wanda pruning of Whisper-large-v3 sharply widens the Black/AA-vs-Asian temporal-taxation differential on Fair-Speech: the absolute word-error-rate gap between the worst- and best-served groups more than doubles; at an assumed cost of five seconds of correction effort per transcription error this is a rise from 30 to 64 seconds of correction time per minute of speech. This +111% relative increase is invariant to the assumed per-error cost, survives an audio-quality control, and is only partly mitigated by beam-search decoding, which still leaves an +86% increase. At edge model size, INT4 HQQ quantization compounds catastrophic transcript loops on West African accents by factors of five to seven. Distillation, by contrast, narrows demographic gaps in 21 of 27 evaluated settings (teacher-student pair, precision, and dataset), with the exceptions concentrated on a single model pair. We cast the temporal-taxation construct of Choi and Choi (2025) as a quantitative metric, and show that single-snapshot fairness audits on full-precision models do not capture the deployment-time burden that compression places on already-marginalized speakers.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-23T19:31:05Z</published>
+    <arxiv:comment>Accepted to IMPACT-SPEECH @ EMNLP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Srishti Ginjala</name>
+    </author>
+    <author>
+      <name>Eric Fosler-Lussier</name>
+    </author>
+    <author>
+      <name>Christopher W. Myers</name>
+    </author>
+    <author>
+      <name>Srinivasan Parthasarathy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.32560v1</id>
+    <title>How to Reduce Whisper Hallucination</title>
+    <updated>2026-09-26T12:35:29Z</updated>
+    <link href="https://arxiv.org/abs/2609.32560v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.32560v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Whisper is still what runs in production: one permissively licensed checkpoint, 99 languages, no per-language tuning. But it writes sentences nobody said. On 42 clips of pure room tone, whisper-large-v3 emits words on 61.9% of them and emits something on 100%. The usual response is to distil a student from Whisper pseudo-labels, filtering the hallucinations out of the corpus first, which deletes the evidence while leaving the behaviour in place: the student is fitted to the subset where the teacher was right, and inherits a failure mode absent from its own training data. The second response, adding non-speech audio so the model learns to stay quiet, already ships and works, but teaches suppression without discrimination. The checkpoint best on every non-speech arm here is also the one that recovers the fewest genuinely spoken phrases and deletes 58% of repeated speech. The teacher has to be fixed, with both halves of the signal. Our benchmark scores both at once: 11,852 clips over eight arms, 6,267 synthetic positives, 8,296 clips of real audio that made a production model fail, and FLEURS in 58 languages. We collect 40,891 hallucination phrases in 100 languages, choose a text-to-speech system by measurement, and synthesise those phrases as positives, so the model meets the same text both as something to suppress and as something to transcribe. Across 33 matched pairs of fine-tunes differing only by those positives, adding them lowers word emission on real voice-free audio in 31 pairs and raises phrase recovery in 32; among the 30 pairs that hold English accuracy it is 30 out of 30. The best checkpoint takes hallucination on silence from 61.9% to 2.4% and words over real voice-free audio from 99.9% to 47.8%, while raising phrase recovery from 69.8% to 82.7%. The benchmark, lexicon and synthetic corpus are released at https://huggingface.co/datasets/Scicom-intl/Whisper-Hallucination</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-26T12:35:29Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Husein Zolkepli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.36194v1</id>
+    <title>Concept Direction Reliability Across Languages with Different Tokenizer Fertility</title>
+    <updated>2026-09-28T19:57:20Z</updated>
+    <link href="https://arxiv.org/abs/2609.36194v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.36194v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Extracted sentiment directions can vary across samples even when downstream sentiment classification remains accurate. To evaluate direction reproducibility, we measure split-half agreement in English, Hausa, and Yoruba representations across four language models using both native and translated texts. We identify layers selected for agreement using ten topics and evaluate direction agreement across separate groups of fifteen topics. Using the final token, split-half agreement ranges from 0.737 to 0.870 for English, 0.589 to 0.762 for Hausa, and 0.101 to 0.399 for Yoruba, maintaining this language rank order across all 77 complete model comparisons. Classifiers trained on these same layers consistently predict sentiment above chance, demonstrating that predictive accuracy does not imply directional consistency. Furthermore, averaging token representations yields less consistent agreement, and high agreement can partially reflect sentence length. Ultimately, our findings highlight the need to measure vector direction reproducibility independently of classification performance, though they do not establish that tokenizer fertility which is the average number of tokens per whitespace separated word causes cross-lingual differences.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-28T19:57:20Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Muhammad Abdullahi Said</name>
+    </author>
+    <author>
+      <name>Abass Oguntade</name>
+    </author>
+    <author>
+      <name>Elisha Komolafe</name>
+    </author>
+    <author>
+      <name>Babangida Sani</name>
+    </author>
+    <author>
+      <name>Fatima Muhammad Adam</name>
+    </author>
+    <author>
+      <name>Muhammad Sammani Sani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.37861v1</id>
+    <title>One Threshold Does Not Fit All Languages: Language-Conditional Deferral for Reliable and Efficient Low-Resource Text Classification</title>
+    <updated>2026-09-29T15:45:33Z</updated>
+    <link href="https://arxiv.org/abs/2609.37861v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.37861v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the Global South, the lower-income countries of Africa, Asia, and Latin America where most of the world's languages are spoken, a deployed text classifier usually runs on ordinary CPUs, serves many languages with a single model, has few labeled examples in any of them, and relies on people to catch its mistakes. Such a system is only useful if it can promise how often it will be wrong: at most a fixed fraction of the labels it assigns on its own may be incorrect, and everything else must go to a person. Split conformal prediction delivers this promise through a single confidence threshold, normally estimated on validation data pooled across languages. We ask whether the promise reaches every language, and it does not. On MasakhaNEWS (16 African languages) and AfriSenti (12 languages plus two never seen in training), a pooled threshold meets the 90% target on average but covers Somali at 77.5%, Tigrinya at 83.7%, and the two unseen languages at 77.5% and 81.2%. Estimating one threshold per language brings every language to between 89.1% and 91.0% without retraining, and it shows how unequal the cost of the promise is: keeping it means sending 43% of Somali news and over 80% of Amharic and Xitsonga tweets to a person, against under 8% of Nigerian Pidgin news. One or two hundred labels per language are enough and the models train in minutes on one CPU core, so the fix is affordable: calibrate, report, and budget human review one language at a time.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-29T15:45:33Z</published>
+    <arxiv:comment>Got accepted and published in NeurIPS 2026 GlobalSouthAI</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bhanu Prakash Vangala</name>
+    </author>
+    <author>
+      <name>Vangala Navya</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.37882v1</id>
+    <title>How Many Labels Does a Language Need? Annotation Budgets and Cross-Lingual Pooling for African-Language Text Classification</title>
+    <updated>2026-09-29T15:54:30Z</updated>
+    <link href="https://arxiv.org/abs/2609.37882v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.37882v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Every text classifier for an African language begins with a budgeting question: how many labelled examples are needed, and can labels from other African languages stand in for them? We answer both questions empirically for 28 language-task pairs, news topic classification in 16 languages (MasakhaNEWS) and tweet sentiment in 12 languages (AfriSenti), using a character n-gram linear model that trains in seconds on two CPU cores with no pretrained weights and no accelerator. Monolingual learning curves at budgets from 25 to several thousand labels show that topic classification reaches 90\% of its full-data macro-F1 with about 400 labels in the median language, while sentiment is still improving at the full training size in 11 of 12 languages and needs thousands of labels. Pooling the full training data of the other languages in the benchmark is worth a great deal at small budgets and nothing at large ones: at 25 target labels it adds 0.20 macro-F1 on average for news (up to 0.43 for Lingala) and 0.08 for sentiment, the gain decays to zero by 800 labels, and at full size pooling hurts in 9 of 16 and 8 of 12 languages. Twenty-five target labels plus pooled data match what 100 to 400 monolingual labels achieve for most news languages. A complete zero-shot transfer matrix shows that transfer without any target labels recovers a median of only 13\% (news) and 4\% (sentiment) of the gap between a majority-class predictor and the in-language model, with the exceptions explained by shared script (Amharic and Tigrinya), shared lexicon (English and Nigerian Pidgin, the Arabic dialects), or a shared label prior rather than by language family. We release code that regenerates every number from the public benchmark files and translate the results into concrete annotation guidance for teams building African-language classifiers without GPUs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-29T15:54:30Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bhanu Prakash Vangala</name>
+    </author>
+    <author>
+      <name>Sowmya Guda</name>
+    </author>
+    <author>
+      <name>Navya Vangala</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.38627v5</id>
+    <title>Marking Contour Tones in Yorùbá: A Typographic and Computational Proposal</title>
+    <updated>2026-10-11T01:34:06Z</updated>
+    <link href="https://arxiv.org/abs/2609.38627v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.38627v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Yorùbá is a tonal language in which contour tones pose persistent orthographic challenges. These are especially notable for personal names and lexical items whose conventional spellings avoid vowel lengthening that would otherwise provide a host syllable for the second tone. A particular concern is a class of names in which the conventional spelling does not just omit tonal information but inverts the meaning of said name, sometimes asserting the opposite of what the name intends. This paper describes the problem, illustrates the inadequacy of current solutions, and proposes the adoption of the caron and circumflex marks. These are symbols with precedent in Yorùbá phonological scholarship since Olmsted (1951), used as orthographic conventions on single vowels to encode rising and falling contour tones, making them accessible for the first time through standard keyboard input and computational text processing. The proposal is supported by an implementation in the WriteYoruba keyboard and the TTSYoruba speech synthesizer, whose architecture and listener evaluation are reported separately (Tubosun et al., 2026).</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-29T22:37:03Z</published>
+    <arxiv:comment>13 pages. v5: proposes the caron and circumflex as a revision of the standard Yoruba orthography, with a formal recommendation (Section 5) for their use in lexicography, reference writing and computational resources; notes remaining gaps, including mid-tone vowel sequences, for future work</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kólá Túbòsún</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.01634v1</id>
+    <title>Yo-ByT5: Efficient and High-Fidelity Diacritic Restoration for Yorùbá</title>
+    <updated>2026-10-01T13:03:49Z</updated>
+    <link href="https://arxiv.org/abs/2610.01634v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.01634v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Yorùbá is a widely spoken tonal language that depends on diacritics to avoid lexical ambiguity. However, it is often written without these diacritics, thereby hindering downstream Natural Language Processing (NLP) tasks. In this paper, we introduce Yo-ByT5, a byte-level Automatic Diacritic Restoration (ADR) model fine-tuned from ByT5-small. We evaluate Yo-ByT5 alongside five publicly released Yorùbá ADR models and one open-weight large language model (LLM) on the YAD benchmark under a consistent protocol. Our results demonstrate that Yo-ByT5 matches the performance of the strongest existing model, mT5-base, with a DER of 10.14% and a CER of 3.48%. Furthermore, it exhibits superior text fidelity despite using approximately half the parameter count of mT5-base. We also release our training code and model outputs, as well as call for the development of a larger, purpose-built benchmark for Yorùbá diacritic restoration.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-01T13:03:49Z</published>
+    <arxiv:comment>7 pages, 3 figures, 3 tables. Code and outputs: https://github.com/lazy-monster/yo-byt5</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ahmad Samuel Gali</name>
+      <arxiv:affiliation>University of Lagos</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shamsuddeen Hassan Muhammad</name>
+      <arxiv:affiliation>Bayero University Kano</arxiv:affiliation>
+      <arxiv:affiliation>Imperial College London</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.02612v1</id>
+    <title>Learning When to Commit from Partial Speech for End-to-End Simultaneous Speech Translation</title>
+    <updated>2026-10-02T00:13:52Z</updated>
+    <link href="https://arxiv.org/abs/2610.02612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.02612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Simultaneous speech translation must emit useful target text before the source is complete while preserving every committed token. We adapt a full-utterance speech language model using prefix supervision derived from its own complete- and partial-waveform translations, requiring neither transcripts nor human translations. We compare single-turn forced-prefix and multi-turn append-only decoding, use a confidence threshold to control the inference-time quality--latency trade-off, and vary the density of training prefixes with a separate synthesis margin. On FLEURS and CoVoST2 in three language directions, prefix training improves quality--latency frontiers over the unadapted model, and confidence provides the broadest consistently competitive operating range. Multi-turn decoding is generally stronger at low latency; under multi-turn training, commit-calibration error falls by 63--68% overall and 68--80% at early prefixes, whereas single-turn training provides only modest overall calibration gains and no early-prefix improvement. A small synthesis margin sometimes extends the frontier to lower latency, particularly on shorter utterances, while a larger margin degrades translation quality and calibration. Prefix adaptation therefore improves simultaneous speech translation, especially under multi-turn append-only decoding, while synthesis density introduces a non-monotonic quality--latency trade-off.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-02T00:13:52Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hieu Hoang</name>
+    </author>
+    <author>
+      <name>Amittai Axelrod</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.05366v3</id>
+    <title>The ÌròyìnSpeech Text Corpus: 24,905 Curated Yorùbá Sentences for Speech and Language Technology</title>
+    <updated>2026-10-10T02:16:24Z</updated>
+    <link href="https://arxiv.org/abs/2610.05366v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.05366v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>ÌròyìnSpeech is a 42-hour, 80-speaker Yorùbá read-speech corpus whose audio has been distributed by ELRA since 2024. This paper describes the release of its text component: 24,905 unique, hand-verified, tone-marked Yorùbá sentences (275,897 tokens; 15,687 types), curated in 2022 as recording prompts. Roughly 11,000 sentences were adapted from openly licensed news material; the remainder were written in-house to broaden coverage beyond the religious translation that dominates existing Yorùbá corpora. Every sentence was checked by hand for tone-mark accuracy, edited for read-aloud clarity and a neutral register, and localised so that non-Yorùbá personal and place names appear in Yorùbá form. Preparing the text for release surfaced systematic Unicode normalisation failures affecting more than 60% of lines (with precomposed and decomposed forms of the same letter co-occurring within single sentences) which we document and correct. The corpus supports diacritic restoration, grapheme-to-phoneme conversion, TTS front-end development and orthographic research, and serves as a validated prompt set for new recording.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-04T16:47:38Z</published>
+    <arxiv:comment>8 pages. Data descriptor for the ÌròyìnSpeech Text Corpus, doi:10.5281/zenodo.23138464. Under review at the Journal of Open Humanities Data. v3: added a note that the caron/circumflex contour-tone convention proposed in arXiv:2609.38627 has not been applied to the corpus</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kola Tubosun</name>
+    </author>
+    <author>
+      <name>Aanuoluwapo Aremu</name>
+    </author>
+    <author>
+      <name>Tolulope Ogunremi</name>
+    </author>
+    <author>
+      <name>Iroro Orife</name>
+    </author>
+    <author>
+      <name>David Ifeoluwa Adelani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.11520v1</id>
+    <title>When Can You Prune Your Network? A Study of Intermediate Neurons in Multilingual Speech Parsing</title>
+    <updated>2026-10-08T08:53:41Z</updated>
+    <link href="https://arxiv.org/abs/2610.11520v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.11520v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>End-to-end speech parsing, a task recently proposed, consists in predicting both the transcription and the syntactic tree for a spoken utterance. Existing architectures for speech parsing often utilise intermediate neural networks. In this work, we examine the effectiveness of intermediate neural networks (NN) for parsing, and, specifically, what role do they play. We introduce a simpler end-to-end architecture for speech parsing, where we remove these intermediate NN units, reducing the parameters by 12%, while achieving comparable or better performance than prior method on both automatic speech recognition (ASR) and parsing. We demonstrate that intermediate NN units help reduce the representational gap when the pre-trained encoder is frozen. We do a comprehensive evaluation of speech parsing on French, and medium-low resource languages Slovenian and Naija. We further investigate the impact of the training data size and intermediate layers of the pretrained speech encoder on speech parsing.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-08T08:53:41Z</published>
+    <arxiv:comment>to appear in Findings of EMNLP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Minnie Kabra</name>
+    </author>
+    <author>
+      <name>Benjamin Lecouteux</name>
+    </author>
+    <author>
+      <name>Maximin Coavoux</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.17703v1</id>
+    <title>Pushback in a Haystack: Language Models Respond to Factual Errors Ambiguously and Ineffectively</title>
+    <updated>2026-10-13T04:34:41Z</updated>
+    <link href="https://arxiv.org/abs/2610.17703v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.17703v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The sycophancy of language models, or their failure to push back against faulty user input, is now widely studied. However, if LMs do push back, is sycophancy solved? We show that LMs vary in how they present pushback, and thus vary in how effectively they correct user beliefs. We introduce a phrase-level, human-validated response labeling framework to uncover fine-grained insights into how LMs push against and/or affirm false inputs. We develop and apply our framework on model responses in five languages: English, German, Chinese, Hindi, and Yoruba. We find that when models do push back against users' false assertions, they tend to use indirect phrasing and mix in affirmation, with more indirectness in Hindi and Yoruba than in other languages considered. In a large-scale human study (n = 300), we find that the pushback ambiguity we identified may fail to correct and prevent users' factual misconceptions.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-13T04:34:41Z</published>
+    <arxiv:comment>28 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Li Lucy</name>
+    </author>
+    <author>
+      <name>Myra Cheng</name>
+    </author>
+    <author>
+      <name>Svenja Guhr</name>
+    </author>
+    <author>
+      <name>Kabir Ahuja</name>
+    </author>
+    <author>
+      <name>Orevaoghene Ahia</name>
+    </author>
+    <author>
+      <name>Sameep Chattopadhyay</name>
+    </author>
+    <author>
+      <name>Yike Wang</name>
+    </author>
+    <author>
+      <name>Valentin Hofmann</name>
+    </author>
+    <author>
+      <name>Noah A. Smith</name>
+    </author>
+    <author>
+      <name>Yulia Tsvetkov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.18726v2</id>
+    <title>Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models</title>
+    <updated>2026-10-14T22:26:33Z</updated>
+    <link href="https://arxiv.org/abs/2610.18726v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.18726v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretraining corpora. Increasing CS coverage requires finding relevant utterances in large speech collections so that they can be included in training data. One way to find such utterances is to transcribe the speech and detect language alternation in the text, but this depends on obtaining accurate multilingual transcriptions. We propose a lightweight method that detects CS directly from speech. It uses frame-level language information in pretrained speech encoders to determine whether both languages are present within an utterance. Specifically, we identify language-selective hidden-state dimensions using monolingual recordings and aggregate their frame-level activations into a CS prediction. With a small CS set used to tune a decision rule, we show that the Whisper-small encoder achieves a mean F1 of $0.798$ across 14 language pairs in CS-FLEURS, compared with $0.776$ for a CNN and $0.751$ for a HuBERT linear baseline trained for monolingual language identification. Our findings suggest that pretrained speech encoders already encode the information needed to identify CS utterances, and they provide a lightweight tool for building more representative multilingual corpora.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-13T17:05:22Z</published>
+    <arxiv:comment>submitted to ICASSP 2027</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jie Chi</name>
+    </author>
+    <author>
+      <name>Zakaria Aldeneh</name>
+    </author>
+    <author>
+      <name>Masha Fedzechkina</name>
+    </author>
+    <author>
+      <name>Maureen de Seyssel</name>
+    </author>
+    <author>
+      <name>Natalie Schluter</name>
+    </author>
+  </entry>
+</feed>

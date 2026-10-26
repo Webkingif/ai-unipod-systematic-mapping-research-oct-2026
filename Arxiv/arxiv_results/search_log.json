@@ -1,0 +1,49 @@
+{
+  "run_date": "2026-10-16",
+  "api_endpoint": "http://export.arxiv.org/api/query",
+  "first_request_url": "http://export.arxiv.org/api/query?search_query=%28cat%3Acs.CL%20OR%20cat%3Aeess.AS%29%20AND%20%28ti%3A%22Yoruba%22%20OR%20abs%3A%22Yoruba%22%20OR%20ti%3A%22Yor%C3%B9b%C3%A1%22%20OR%20abs%3A%22Yor%C3%B9b%C3%A1%22%20OR%20ti%3A%22Hausa%22%20OR%20abs%3A%22Hausa%22%20OR%20ti%3A%22Igbo%22%20OR%20abs%3A%22Igbo%22%20OR%20ti%3A%22Nigerian%20Pidgin%22%20OR%20abs%3A%22Nigerian%20Pidgin%22%20OR%20ti%3A%22Naija%22%20OR%20abs%3A%22Naija%22%20OR%20ti%3A%22Nigerian-accented%20English%22%20OR%20abs%3A%22Nigerian-accented%20English%22%20OR%20ti%3A%22AfriSpeech%22%20OR%20abs%3A%22AfriSpeech%22%20OR%20ti%3A%22NaijaVoices%22%20OR%20abs%3A%22NaijaVoices%22%20OR%20ti%3A%22YORULECT%22%20OR%20abs%3A%22YORULECT%22%20OR%20ti%3A%22YarnGPT%22%20OR%20abs%3A%22YarnGPT%22%20OR%20ti%3A%22IroyinSpeech%22%20OR%20abs%3A%22IroyinSpeech%22%20OR%20ti%3A%22BibleTTS%22%20OR%20abs%3A%22BibleTTS%22%20OR%20ti%3A%22FLEURS%22%20OR%20abs%3A%22FLEURS%22%20OR%20ti%3A%22GlobalPhone%22%20OR%20abs%3A%22GlobalPhone%22%29%20AND%20%28ti%3A%22speech%22%20OR%20abs%3A%22speech%22%20OR%20ti%3A%22ASR%22%20OR%20abs%3A%22ASR%22%20OR%20ti%3A%22TTS%22%20OR%20abs%3A%22TTS%22%20OR%20ti%3A%22telephony%22%20OR%20abs%3A%22telephony%22%20OR%20ti%3A%22acoustic%22%20OR%20abs%3A%22acoustic%22%20OR%20ti%3A%22narrowband%22%20OR%20abs%3A%22narrowband%22%20OR%20ti%3A%228%20kHz%22%20OR%20abs%3A%228%20kHz%22%20OR%20ti%3A%22codec%22%20OR%20abs%3A%22codec%22%20OR%20ti%3A%22language%20identification%22%20OR%20abs%3A%22language%20identification%22%20OR%20ti%3A%22code-switching%22%20OR%20abs%3A%22code-switching%22%20OR%20ti%3A%22model%22%20OR%20abs%3A%22model%22%20OR%20ti%3A%22corpora%22%20OR%20abs%3A%22corpora%22%20OR%20ti%3A%22dataset%22%20OR%20abs%3A%22dataset%22%20OR%20ti%3A%22benchmark%22%20OR%20abs%3A%22benchmark%22%29%20AND%20submittedDate%3A%5B180001010000%20TO%20202612312359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=ascending",
+  "search_query": "(cat:cs.CL OR cat:eess.AS) AND (ti:\"Yoruba\" OR abs:\"Yoruba\" OR ti:\"Yorùbá\" OR abs:\"Yorùbá\" OR ti:\"Hausa\" OR abs:\"Hausa\" OR ti:\"Igbo\" OR abs:\"Igbo\" OR ti:\"Nigerian Pidgin\" OR abs:\"Nigerian Pidgin\" OR ti:\"Naija\" OR abs:\"Naija\" OR ti:\"Nigerian-accented English\" OR abs:\"Nigerian-accented English\" OR ti:\"AfriSpeech\" OR abs:\"AfriSpeech\" OR ti:\"NaijaVoices\" OR abs:\"NaijaVoices\" OR ti:\"YORULECT\" OR abs:\"YORULECT\" OR ti:\"YarnGPT\" OR abs:\"YarnGPT\" OR ti:\"IroyinSpeech\" OR abs:\"IroyinSpeech\" OR ti:\"BibleTTS\" OR abs:\"BibleTTS\" OR ti:\"FLEURS\" OR abs:\"FLEURS\" OR ti:\"GlobalPhone\" OR abs:\"GlobalPhone\") AND (ti:\"speech\" OR abs:\"speech\" OR ti:\"ASR\" OR abs:\"ASR\" OR ti:\"TTS\" OR abs:\"TTS\" OR ti:\"telephony\" OR abs:\"telephony\" OR ti:\"acoustic\" OR abs:\"acoustic\" OR ti:\"narrowband\" OR abs:\"narrowband\" OR ti:\"8 kHz\" OR abs:\"8 kHz\" OR ti:\"codec\" OR abs:\"codec\" OR ti:\"language identification\" OR abs:\"language identification\" OR ti:\"code-switching\" OR abs:\"code-switching\" OR ti:\"model\" OR abs:\"model\" OR ti:\"corpora\" OR abs:\"corpora\" OR ti:\"dataset\" OR abs:\"dataset\" OR ti:\"benchmark\" OR abs:\"benchmark\") AND submittedDate:[180001010000 TO 202612312359]",
+  "date_from": "1800-01-01",
+  "date_to": "2026-12-31",
+  "categories": [
+    "cs.CL",
+    "eess.AS"
+  ],
+  "group_1_terms": [
+    "Yoruba",
+    "Yorùbá",
+    "Hausa",
+    "Igbo",
+    "Nigerian Pidgin",
+    "Naija",
+    "Nigerian-accented English",
+    "AfriSpeech",
+    "NaijaVoices",
+    "YORULECT",
+    "YarnGPT",
+    "IroyinSpeech",
+    "BibleTTS",
+    "FLEURS",
+    "GlobalPhone"
+  ],
+  "group_2_terms": [
+    "speech",
+    "ASR",
+    "TTS",
+    "telephony",
+    "acoustic",
+    "narrowband",
+    "8 kHz",
+    "codec",
+    "language identification",
+    "code-switching",
+    "model",
+    "corpora",
+    "dataset",
+    "benchmark"
+  ],
+  "api_total_results": 258,
+  "records_retrieved": 258,
+  "unique_records": 258,
+  "with_doi": 12
+}
